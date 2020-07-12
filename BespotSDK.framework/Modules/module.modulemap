@@ -1,0 +1,11 @@
+framework module BespotSDK {
+  umbrella header "BespotSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module BespotSDK.Swift {
+    header "BespotSDK-Swift.h"
+    requires objc
+}
