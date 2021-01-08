@@ -114,7 +114,7 @@ BespotSDK.shared.unsubscribe()
 
 ## Support
 
-[Konstantinos Dimitros](k.dimitros@bespot.me)
+If you find a bug please fill out an issue report or contact us at dev@bespot.me
 
 ## License
 Distributed under the MIT license. See ``LICENSE`` for more information.
