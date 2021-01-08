@@ -1,7 +1,7 @@
 # Bespot iOS SDK - Release
 > Bespot iOS SDK for proximity events and analytics reporting
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.0.2-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.1.0-green)](#)
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
 
