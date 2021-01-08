@@ -1,6 +1,7 @@
 # Bespot iOS SDK - Release
 > Bespot iOS SDK for proximity events and analytics reporting
 
+[![VERSION](https://img.shields.io/badge/VERSION-0.0.2-green)](#)
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
 
@@ -8,13 +9,15 @@ Bespot iOS SDK offers proximity events and analytics reporting to 3rd party apps
 
 ## Features
 
-- [x] Indoor/Outdoor events
-- [x] Analytics
+- [x] Indoor location (InOut)
+- [ ] Indoor area detection
+- [ ] Outdoor location
+- [ ] Analytics
 
 ## Requirements
 
 - iOS 10.0+
-- Xcode 11
+- Xcode 12
 
 ## Installation
 
@@ -52,18 +55,61 @@ For manually installing *BespotSDK* into your app, follow the steps below:
 
 ## Usage example
 
+### Preparation
+BespotSDK uses CoreBluetooth. Put the `NSBluetoothAlwaysUsageDescription` key in your `Info.plist` file along with a string value explaining to the user how the app uses the Bluetooth data. Otherwise, the app will **crash** with the following console error:
+
+```
+This app has crashed because it attempted to access privacy-sensitive data without a usage description.  The app's Info.plist must contain an NSBluetoothAlwaysUsageDescription key with a string value explaining to the user how the app uses this data.
+```
+
+### Initialization
+
 Do the import :
+
 ```Swift
 import BespotSDK
 ```
 
-In your view controller's ```viewDidLoad()``` method add these:
-```Swift
-// Initialize Bespot Proximity object
-let proximity = BespotProximity()
+In your application's AppDelegate ```application(_:didFinishLaunchingWithOptions:)``` method add this line to init/configure the BespotSDK singleton object:
 
-// Print 'Hello World!' message
-print(proximity.helloWorld())
+```Swift
+BespotSDK.shared.configure(applicationId: "your_app_id", applicationSecret: "your_app_secret")
+```
+
+### Use the `BTInOutDelegate` delegate to receive InOut updates
+In your view controller's ```viewDidLoad()``` method add this:
+
+```Swift
+BespotSDK.shared.inOutDelegate = self
+```
+
+Extend your view controller to implement delegate methods:
+```Swift
+extension YourViewController: BTInOutDelegate {
+    func didUpdateInOut(status: BTInOutStatus) {
+        // TODO: Use In-Out status
+    }
+
+    func didFailUpdateInOut(error: BTError) {
+        // TODO: Inspect possible errors
+    }
+}
+```
+
+
+
+### Subscribe for In-Out status updates
+The user's location (latitude and longitude) are needed in order for the solution to geolocate the nearby store (physical building).
+
+```Swift
+BespotSDK.shared.subscribeForInOutUpdates(latitude: USER_LOCATION_LATITUDE, longitude: USER_LOCATION_LANGITUDE)
+```
+
+### Unsubscribe from updates
+
+To unsubscribe from updates just use this:
+```Swift
+BespotSDK.shared.unsubscribe()
 ```
 
 ## Support
