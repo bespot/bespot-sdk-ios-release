@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BespotSDK"
-  spec.version      = "0.1.0"
-  spec.summary      = "BespotSDK proximity & analytics"
+  spec.version      = "0.1.1"
+  spec.summary      = "BespotSDK location & analytics"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  BespotSDK offers proximity reporting and location based analytics using BLE technology. 
+  BespotSDK offers location reporting and location based analytics using BLE technology. 
                    DESC
 
   spec.homepage     = "https://gitlab.com/bespot/bespot-sdk-ios-release"
@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Konstantinos Dimitros" => "k.dimitros@gmail.com" }
+  spec.author             = { "Konstantinos Dimitros" => "k.dimitros@bespot.me" }
   # Or just: spec.author    = "Konstantinos Dimitros"
   # spec.authors            = { "Konstantinos Dimitros" => "k.dimitros@gmail.com" }
   # spec.social_media_url   = "https://twitter.com/Konstantinos Dimitros"
@@ -138,6 +138,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  spec.dependency "Alamofire", "~> 5.4.1"
 
 end
