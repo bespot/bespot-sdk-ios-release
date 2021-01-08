@@ -98,7 +98,7 @@ extension YourViewController: BTInOutDelegate {
 
 
 
-### Subscribe for In-Out status updates
+### Subscribe for InOut status updates
 The user's location (latitude and longitude) are needed in order for the solution to geolocate the nearby store (physical building).
 
 ```Swift
