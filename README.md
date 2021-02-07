@@ -1,7 +1,7 @@
 # Bespot iOS SDK - Release
 > Bespot iOS SDK for proximity events and analytics reporting
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.1.1-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.2.0-green)](#)
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
 
@@ -35,7 +35,7 @@ target '[Your app]' do
   use_frameworks!
 
   # BespotSDK Framework
-  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release.git', :tag => '0.1.1'
+  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release.git', :tag => '0.2.0'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -96,7 +96,22 @@ extension YourViewController: BTInOutDelegate {
 }
 ```
 
+### Get all available stores
 
+```Swift
+BespotSDK.shared.getStores { (stores: [BTStore]?, error: BTError?) in
+    // Check for error
+    guard error == nil else {
+        // TODO: Handle error
+        return
+    }
+
+    // Check for stores
+    guard let stores = stores else { return }
+
+    // TODO: Use stores
+}
+```
 
 ### Subscribe for InOut status updates
 The user's location (latitude and longitude) are needed in order for the solution to geolocate the nearby store (physical building).
@@ -110,6 +125,25 @@ BespotSDK.shared.subscribeForInOutUpdates(latitude: USER_LOCATION_LATITUDE, long
 To unsubscribe from updates just use this:
 ```Swift
 BespotSDK.shared.unsubscribe()
+```
+
+### Get last InOut status
+Helper method to provide the last known InOut status.
+
+```Swift
+// Get the InOut result tuple
+let resultTuple = BespotSDK.shared.getLastInOutStatus()
+
+// Check for error        
+if let error: BTError = resultTuple.1 {
+    // TODO: Handle error
+}
+
+// Check for the InOut status
+guard let inOutStatus: BTInOutStatus = resultTuple.0 else { return }
+
+// TODO: Use In-Out status
+
 ```
 
 ## Support
