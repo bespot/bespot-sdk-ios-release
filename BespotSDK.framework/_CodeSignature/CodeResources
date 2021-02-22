@@ -14,67 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ka5AvMGKZVn5tHualdwG07nt3uY=
-		</data>
-		<key>Modules/BespotSDK.swiftmodule/Project/arm.swiftsourceinfo</key>
-		<data>
-		RylZ7b0cLKN5M51g6uUgi9by4G0=
-		</data>
-		<key>Modules/BespotSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		snxGQldX6I8Ns2iBhtnWIC39tWQ=
-		</data>
-		<key>Modules/BespotSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		snxGQldX6I8Ns2iBhtnWIC39tWQ=
-		</data>
-		<key>Modules/BespotSDK.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
-		<data>
-		RylZ7b0cLKN5M51g6uUgi9by4G0=
-		</data>
-		<key>Modules/BespotSDK.swiftmodule/Project/armv7.swiftsourceinfo</key>
-		<data>
-		RylZ7b0cLKN5M51g6uUgi9by4G0=
+		Jdy6oqwRjwsQ5/qk2epzCZqobdk=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
-		B2Xfwm/q0YJ/1Lm49MJ8g9mDJ0c=
+		is6WAnCT0W9oCZrMhCNtMIcV9s8=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		IxuPp9EcGcPhdeoyzGhybybFYbE=
+		lb5l9iPBO1hH/ufUWi6PH/NtEBY=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		rVtVaczt7dSrMCh4ztPSi+bIM00=
+		YxBOpJ2tRBRYSzZOW4gYFS6VBsU=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		IXaALktLmPuhd3VtWMtKRN8twK0=
+		O2genFuHhmt10h61OMbFU8G8Bdg=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		rVtVaczt7dSrMCh4ztPSi+bIM00=
+		YxBOpJ2tRBRYSzZOW4gYFS6VBsU=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		IXaALktLmPuhd3VtWMtKRN8twK0=
+		O2genFuHhmt10h61OMbFU8G8Bdg=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		B2Xfwm/q0YJ/1Lm49MJ8g9mDJ0c=
+		is6WAnCT0W9oCZrMhCNtMIcV9s8=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		IxuPp9EcGcPhdeoyzGhybybFYbE=
+		lb5l9iPBO1hH/ufUWi6PH/NtEBY=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		B2Xfwm/q0YJ/1Lm49MJ8g9mDJ0c=
+		is6WAnCT0W9oCZrMhCNtMIcV9s8=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		IxuPp9EcGcPhdeoyzGhybybFYbE=
+		lb5l9iPBO1hH/ufUWi6PH/NtEBY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -105,169 +85,114 @@
 			Z1nRQwm8MIV0YDZFe9Ad6xmEnAzm+XFgcAUw+E2pQMY=
 			</data>
 		</dict>
-		<key>Modules/BespotSDK.swiftmodule/Project/arm.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RylZ7b0cLKN5M51g6uUgi9by4G0=
-			</data>
-			<key>hash2</key>
-			<data>
-			JSJRXKw+xferCxmb90bWvMiITbLX5BI34qjy+d/HDGo=
-			</data>
-		</dict>
-		<key>Modules/BespotSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			snxGQldX6I8Ns2iBhtnWIC39tWQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			fNOdrUZ9Z/eudjRnCldlFdpfpI2fPw4t2d5BbJFCT0g=
-			</data>
-		</dict>
-		<key>Modules/BespotSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			snxGQldX6I8Ns2iBhtnWIC39tWQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			fNOdrUZ9Z/eudjRnCldlFdpfpI2fPw4t2d5BbJFCT0g=
-			</data>
-		</dict>
-		<key>Modules/BespotSDK.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RylZ7b0cLKN5M51g6uUgi9by4G0=
-			</data>
-			<key>hash2</key>
-			<data>
-			JSJRXKw+xferCxmb90bWvMiITbLX5BI34qjy+d/HDGo=
-			</data>
-		</dict>
-		<key>Modules/BespotSDK.swiftmodule/Project/armv7.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RylZ7b0cLKN5M51g6uUgi9by4G0=
-			</data>
-			<key>hash2</key>
-			<data>
-			JSJRXKw+xferCxmb90bWvMiITbLX5BI34qjy+d/HDGo=
-			</data>
-		</dict>
 		<key>Modules/BespotSDK.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B2Xfwm/q0YJ/1Lm49MJ8g9mDJ0c=
+			is6WAnCT0W9oCZrMhCNtMIcV9s8=
 			</data>
 			<key>hash2</key>
 			<data>
-			uUo5/0pAXNqx4jIaniVNXn4PnTALzKxqisU7Gt3SggA=
+			S3864J17xOGY7JsLVK0E4BYh7oXGWrPM1sFTmChZkhk=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IxuPp9EcGcPhdeoyzGhybybFYbE=
+			lb5l9iPBO1hH/ufUWi6PH/NtEBY=
 			</data>
 			<key>hash2</key>
 			<data>
-			+vQvT1vAXe00tNj8B6ZpDqrhD/p89U2tbeOL2dY6+Ro=
+			bKYDP8lCPPzikxCRLuE7++eK1lKKFxMMefjdPbiUdGU=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rVtVaczt7dSrMCh4ztPSi+bIM00=
+			YxBOpJ2tRBRYSzZOW4gYFS6VBsU=
 			</data>
 			<key>hash2</key>
 			<data>
-			yAJhXRHuIUlEi54h3SjIn3RKf8Gh/j8UoEwB7mt1UmQ=
+			f3KIfG3tsfIMbEPaQuBBy5m9xAPj+m8av9KOt+jXUw0=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IXaALktLmPuhd3VtWMtKRN8twK0=
+			O2genFuHhmt10h61OMbFU8G8Bdg=
 			</data>
 			<key>hash2</key>
 			<data>
-			rMNBmkikON1h2bHd7mywAtoWz7Ic9rxxA5BDC5M+hsg=
+			voKZ2DeKNOzs+QHlZdCj1JrnVVkITJ8pZuyOgl/a57w=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rVtVaczt7dSrMCh4ztPSi+bIM00=
+			YxBOpJ2tRBRYSzZOW4gYFS6VBsU=
 			</data>
 			<key>hash2</key>
 			<data>
-			yAJhXRHuIUlEi54h3SjIn3RKf8Gh/j8UoEwB7mt1UmQ=
+			f3KIfG3tsfIMbEPaQuBBy5m9xAPj+m8av9KOt+jXUw0=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IXaALktLmPuhd3VtWMtKRN8twK0=
+			O2genFuHhmt10h61OMbFU8G8Bdg=
 			</data>
 			<key>hash2</key>
 			<data>
-			rMNBmkikON1h2bHd7mywAtoWz7Ic9rxxA5BDC5M+hsg=
+			voKZ2DeKNOzs+QHlZdCj1JrnVVkITJ8pZuyOgl/a57w=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B2Xfwm/q0YJ/1Lm49MJ8g9mDJ0c=
+			is6WAnCT0W9oCZrMhCNtMIcV9s8=
 			</data>
 			<key>hash2</key>
 			<data>
-			uUo5/0pAXNqx4jIaniVNXn4PnTALzKxqisU7Gt3SggA=
+			S3864J17xOGY7JsLVK0E4BYh7oXGWrPM1sFTmChZkhk=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IxuPp9EcGcPhdeoyzGhybybFYbE=
+			lb5l9iPBO1hH/ufUWi6PH/NtEBY=
 			</data>
 			<key>hash2</key>
 			<data>
-			+vQvT1vAXe00tNj8B6ZpDqrhD/p89U2tbeOL2dY6+Ro=
+			bKYDP8lCPPzikxCRLuE7++eK1lKKFxMMefjdPbiUdGU=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B2Xfwm/q0YJ/1Lm49MJ8g9mDJ0c=
+			is6WAnCT0W9oCZrMhCNtMIcV9s8=
 			</data>
 			<key>hash2</key>
 			<data>
-			uUo5/0pAXNqx4jIaniVNXn4PnTALzKxqisU7Gt3SggA=
+			S3864J17xOGY7JsLVK0E4BYh7oXGWrPM1sFTmChZkhk=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IxuPp9EcGcPhdeoyzGhybybFYbE=
+			lb5l9iPBO1hH/ufUWi6PH/NtEBY=
 			</data>
 			<key>hash2</key>
 			<data>
-			+vQvT1vAXe00tNj8B6ZpDqrhD/p89U2tbeOL2dY6+Ro=
+			bKYDP8lCPPzikxCRLuE7++eK1lKKFxMMefjdPbiUdGU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

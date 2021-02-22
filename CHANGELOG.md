@@ -1,3 +1,14 @@
+# 0.3.0 (2021-02-19)
+
+### Added
+- Verified InOut status. Supported status: `IN`, `OUT`, `UNVERIFIED`.  
+
+### Changed
+- Location (latitude, longitude) made optional in `subscribeForInOutUpdates` method. InOut updates now can start based on Bluetooth beacon. readings.
+
+### Fixed
+- Get InOut status only for the latest distinct EID Bluetooth readings (previously all EID readings were used).
+
 # 0.2.0 (2021-02-07)
 
 ### Added
