@@ -1,7 +1,7 @@
 # Bespot iOS SDK - Release
 > Bespot iOS SDK for proximity events and analytics reporting
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.2.0-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.3.0-green)](#)
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
 
@@ -35,7 +35,7 @@ target '[Your app]' do
   use_frameworks!
 
   # BespotSDK Framework
-  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release.git', :tag => '0.2.0'
+  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release.git', :tag => '0.3.0'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -114,10 +114,22 @@ BespotSDK.shared.getStores { (stores: [BTStore]?, error: BTError?) in
 ```
 
 ### Subscribe for InOut status updates
-The user's location (latitude and longitude) are needed in order for the solution to geolocate the nearby store (physical building).
+In order for the solution to geolocate the nearby store (physical building), there are two ways to subscribe for InOut updates:
+ - by using Bluetooth to read nearby beacons **OR**
+ - by providing a location object
+
+Use Bluetooth (default implementation):
+```Swift
+BespotSDK.shared.subscribeForInOutUpdates()
+```
+**OR**
+
+Use user's location (latitude and longitude in the form of coordinates object - `CLLocationCoordinate2D` - from `CoreLocation` iOS framework) are needed:
 
 ```Swift
-BespotSDK.shared.subscribeForInOutUpdates(latitude: USER_LOCATION_LATITUDE, longitude: USER_LOCATION_LANGITUDE)
+import CoreLocation
+
+BespotSDK.shared.subscribeForInOutUpdates(coordinates: CLLocationCoordinate2D(latitude: USER_LOCATION_LATITUDE, longitude: USER_LOCATION_LONGITUDE))
 ```
 
 ### Unsubscribe from updates
