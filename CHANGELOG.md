@@ -1,3 +1,11 @@
+# 0.3.1 (2021-02-26)
+
+### Added
+- Store code is now provided as well in InOut status.
+
+### Fixed
+- Minor flow crash in case IN-OUT status is explicitly requested without prior IN-OUT status subscription.
+
 # 0.3.0 (2021-02-19)
 
 ### Added
