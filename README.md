@@ -1,7 +1,7 @@
 # Bespot iOS SDK - Release
 > Bespot iOS SDK for proximity events and analytics reporting
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.3.1-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.3.2-green)](#)
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
 
@@ -35,7 +35,7 @@ target '[Your app]' do
   use_frameworks!
 
   # BespotSDK Framework
-  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release.git', :tag => '0.3.1'
+  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release.git', :tag => '0.3.2'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -156,6 +156,13 @@ guard let inOutStatus: BTInOutStatus = resultTuple.0 else { return }
 
 // TODO: Use In-Out status
 
+```
+
+### Set user identifier
+After initializaion/configuration is complete, user identifier can be provided at any time using the following code:
+
+```Swift
+BespotSDK.shared.setUserId(USER_IDENTIFIER)
 ```
 
 ## Support
