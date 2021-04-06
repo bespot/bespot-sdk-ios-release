@@ -1,3 +1,8 @@
+# 0.3.2 (2021-04-06)
+
+### Added
+- User identifier can now be provided using `setUserId(_:)` method.
+
 # 0.3.1 (2021-02-26)
 
 ### Added
