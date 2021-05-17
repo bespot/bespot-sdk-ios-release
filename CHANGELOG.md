@@ -1,3 +1,8 @@
+# 0.3.3 (2021-05-17)
+
+### Added
+- Extra data added in beacon readings payloads to allow remote signal adjustments for different device types.
+
 # 0.3.2 (2021-04-06)
 
 ### Added

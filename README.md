@@ -1,7 +1,7 @@
 # Bespot iOS SDK - Release
 > Bespot iOS SDK for proximity events and analytics reporting
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.3.2-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.3.3-green)](#)
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
 
@@ -35,7 +35,7 @@ target '[Your app]' do
   use_frameworks!
 
   # BespotSDK Framework
-  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release.git', :tag => '0.3.2'
+  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release.git', :tag => '0.3.3'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -156,6 +156,37 @@ guard let inOutStatus: BTInOutStatus = resultTuple.0 else { return }
 
 // TODO: Use In-Out status
 
+```
+
+### Application lifecycle
+It is **highly** recommended to unsubscribe from InOut updates when application enters background and subscribe again when applcation enters foreground.
+
+In your view controller's ```viewDidLoad()``` method add this:
+
+```swift
+let notificationCenter = NotificationCenter.default
+notificationCenter.addObserver(self, selector: #selector(appMovedToBackground), name: UIApplication.willResignActiveNotification, object: nil)
+notificationCenter.addObserver(self, selector: #selector(appMovedToForeground), name: UIApplication.didBecomeActiveNotification, object: nil)
+```
+
+And then, implement these selector methods accordingly:
+
+**Application moves to background**
+
+```Swift
+@objc func appMovedToBackground() {
+    // Unsubscribe from updates
+    BespotSDK.shared.unsubscribe()
+}
+```
+
+**Application moves to foreground**
+
+```Swift
+@objc func appMovedToForeground() {
+    // Subscribe to InOut updates again
+    BespotSDK.shared.subscribeForInOutUpdates()
+}
 ```
 
 ### Set user identifier
