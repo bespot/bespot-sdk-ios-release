@@ -35,7 +35,7 @@ target '[Your app]' do
   use_frameworks!
 
   # BespotSDK Framework
-  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release.git', :tag => '0.3.3'
+  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release', :tag => '0.3.3'
 
   # Other CocoaPods libraries/frameworks you may use...
 
