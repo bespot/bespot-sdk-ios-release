@@ -66,25 +66,25 @@ This app has crashed because it attempted to access privacy-sensitive data witho
 
 Do the import :
 
-```Swift
+```swift
 import BespotSDK
 ```
 
 In your application's AppDelegate ```application(_:didFinishLaunchingWithOptions:)``` method add this line to init/configure the BespotSDK singleton object:
 
-```Swift
+```swift
 BespotSDK.shared.configure(applicationId: "your_app_id", applicationSecret: "your_app_secret")
 ```
 
 ### Use the `BTInOutDelegate` delegate to receive InOut updates
 In your view controller's ```viewDidLoad()``` method add this:
 
-```Swift
+```swift
 BespotSDK.shared.inOutDelegate = self
 ```
 
 Extend your view controller to implement delegate methods:
-```Swift
+```swift
 extension YourViewController: BTInOutDelegate {
     func didUpdateInOut(status: BTInOutStatus) {
         // TODO: Use In-Out status
@@ -98,7 +98,7 @@ extension YourViewController: BTInOutDelegate {
 
 ### Get all available stores
 
-```Swift
+```swift
 BespotSDK.shared.getStores { (stores: [BTStore]?, error: BTError?) in
     // Check for error
     guard error == nil else {
@@ -119,14 +119,14 @@ In order for the solution to geolocate the nearby store (physical building), the
  - by providing a location object
 
 Use Bluetooth (default implementation):
-```Swift
+```swift
 BespotSDK.shared.subscribeForInOutUpdates()
 ```
 **OR**
 
 Use user's location (latitude and longitude in the form of coordinates object - `CLLocationCoordinate2D` - from `CoreLocation` iOS framework) are needed:
 
-```Swift
+```swift
 import CoreLocation
 
 BespotSDK.shared.subscribeForInOutUpdates(coordinates: CLLocationCoordinate2D(latitude: USER_LOCATION_LATITUDE, longitude: USER_LOCATION_LONGITUDE))
@@ -135,14 +135,14 @@ BespotSDK.shared.subscribeForInOutUpdates(coordinates: CLLocationCoordinate2D(la
 ### Unsubscribe from updates
 
 To unsubscribe from updates just use this:
-```Swift
+```swift
 BespotSDK.shared.unsubscribe()
 ```
 
 ### Get last InOut status
 Helper method to provide the last known InOut status.
 
-```Swift
+```swift
 // Get the InOut result tuple
 let resultTuple = BespotSDK.shared.getLastInOutStatus()
 
@@ -173,7 +173,7 @@ And then, implement these selector methods accordingly:
 
 **Application moves to background**
 
-```Swift
+```swift
 @objc func appMovedToBackground() {
     // Unsubscribe from updates
     BespotSDK.shared.unsubscribe()
@@ -182,7 +182,7 @@ And then, implement these selector methods accordingly:
 
 **Application moves to foreground**
 
-```Swift
+```swift
 @objc func appMovedToForeground() {
     // Subscribe to InOut updates again
     BespotSDK.shared.subscribeForInOutUpdates()
@@ -192,7 +192,7 @@ And then, implement these selector methods accordingly:
 ### Set user identifier
 After initializaion/configuration is complete, user identifier can be provided at any time using the following code:
 
-```Swift
+```swift
 BespotSDK.shared.setUserId(USER_IDENTIFIER)
 ```
 
