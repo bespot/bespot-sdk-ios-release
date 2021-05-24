@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BespotSDK"
-  spec.version      = "0.3.3"
+  spec.version      = "0.3.4"
   spec.summary      = "BespotSDK location & analytics"
 
   # This description is used to generate tags and improve search results.
@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Konstantinos Dimitros" => "k.dimitros@bespot.me" }
+  spec.author             = { "Konstantinos Dimitros" => "k.dimitros@bespot.com" }
   # Or just: spec.author    = "Konstantinos Dimitros"
   # spec.authors            = { "Konstantinos Dimitros" => "k.dimitros@gmail.com" }
   # spec.social_media_url   = "https://twitter.com/Konstantinos Dimitros"

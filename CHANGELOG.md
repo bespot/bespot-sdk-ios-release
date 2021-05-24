@@ -1,3 +1,8 @@
+# 0.3.4 (2021-05-24)
+
+### Changed
+- Request interval changed to 2.0 seconds (previously 1.0 seconds)
+
 # 0.3.3 (2021-05-17)
 
 ### Added
