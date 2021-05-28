@@ -1,3 +1,8 @@
+# 0.3.5 (2021-05-28)
+
+### Added
+- SDK: In case of no bluetooth readings reception when subscribed, send client side OUT every 5 seconds.
+
 # 0.3.4 (2021-05-24)
 
 ### Changed
