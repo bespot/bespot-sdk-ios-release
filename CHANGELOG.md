@@ -1,3 +1,8 @@
+# 0.3.6 (2021-06-10)
+
+### Changed
+- Return `nil` store code in case of no bluetooth readings reception (OUT status, `nil` EIDs).
+
 # 0.3.5 (2021-05-28)
 
 ### Added
