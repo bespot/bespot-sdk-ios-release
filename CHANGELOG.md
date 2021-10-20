@@ -1,3 +1,16 @@
+# 0.4.0 (2021-10-19)
+
+### Changed
+- Logger time changed to 24h format
+- AWAY status returned instead of OUT in case of no bluetooth readings reception when subscribed (every 5 seconds)
+
+### Added
+ - Expose internal session configuration values to the server (through the `metadata` field) (internal)
+
+### Fixed
+- Only EID packets are now used. Other packets (such as EDDYSTONE UID) are now filtered out.
+- Bluetooth scanning refresh to avoid decreased beacon readings number over time.
+
 # 0.3.6 (2021-06-10)
 
 ### Changed

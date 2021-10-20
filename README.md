@@ -1,7 +1,7 @@
 # Bespot iOS SDK - Release
 > Bespot iOS SDK for proximity events and analytics reporting
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.3.6-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.4.0-green)](#)
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
 
@@ -35,7 +35,7 @@ target '[Your app]' do
   use_frameworks!
 
   # BespotSDK Framework
-  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release', :tag => '0.3.6'
+  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release', :tag => '0.4.0'
 
   # Other CocoaPods libraries/frameworks you may use...
 
