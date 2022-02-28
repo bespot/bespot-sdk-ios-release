@@ -1,3 +1,29 @@
+# 0.4.2 (2022-02-24)
+
+### Changed
+- apiError -> unknownServerError
+- Timestamp changed from seconds to milliseconds
+- Refactoring of the startScanning and didUpdateBeacon methods (INTERNAL)
+
+### Added
+- BTConfigurationDelegate protocol with didCompleteConfiguration(), didFailUpdateConfiguration(error: BTError) methods added
+- New errors:
+  - internalClientError
+  - networkError
+  - notInitialised
+  - bluetoothError
+  - bluetoothPermissionDenied
+  - deviceNotSupported
+- Interruption of the InOut the flow if authentication (successful configuration) has not been completed
+- Error propagation due to failure to decode the InOut status
+
+### Fixed
+- Bug with InOut updates stop being delivered in case of network being recovered (network previously disabled or unavailable)
+- Bug of sending misleading AWAY status when no network is available
+
+### Removed
+- [BREAKING] .unverified case removed from BTInOutStatusType enumeration
+
 # 0.4.1 (2022-01-25)
 
 ### Added
