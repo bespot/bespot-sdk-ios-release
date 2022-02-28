@@ -75,6 +75,24 @@ In your application's AppDelegate ```application(_:didFinishLaunchingWithOptions
 ```swift
 BespotSDK.shared.configure(applicationId: "your_app_id", applicationSecret: "your_app_secret")
 ```
+### Use the `BTConfigurationDelegate` optional delegate for the Configuration of a user
+In your view controller's ```viewDidLoad``` method add this:
+```swift
+BespotSDK.shared.configurationDelegate = self
+```
+
+Extend your view controller to implement delegate methods:
+```swift
+extension YourViewController: BTConfigurationDelegate {
+   func didCompleteConfiguration() {
+     // TODO: When the user has completed the configuration process
+   }
+
+   func didFailUpdateConfiguration(error: BTError) {
+     // TODO: Inspect possible errors
+   }
+}
+```
 
 ### Use the `BTInOutDelegate` delegate to receive InOut updates
 In your view controller's ```viewDidLoad()``` method add this:
