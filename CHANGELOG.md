@@ -14,7 +14,7 @@
   - bluetoothError
   - bluetoothPermissionDenied
   - deviceNotSupported
-- Interruption of the InOut the flow if authentication (successful configuration) has not been completed
+- Interruption of the InOut flow if authentication (successful configuration) has not been completed
 - Error propagation due to failure to decode the InOut status
 
 ### Fixed
