@@ -7,15 +7,9 @@
 
 ### Added
 - BTConfigurationDelegate protocol with didCompleteConfiguration(), didFailUpdateConfiguration(error: BTError) methods added
-- New errors:
-  - internalClientError
-  - networkError
-  - notInitialised
-  - bluetoothError
-  - bluetoothPermissionDenied
-  - deviceNotSupported
+- New errors: See BTErrorType enum
 - Interruption of the InOut flow if authentication (successful configuration) has not been completed
-- Error propagation due to failure to decode the InOut status
+- Error propagation (.networkError) due to decoding failure in the InOut status
 
 ### Fixed
 - Bug with InOut updates stop being delivered in case of network being recovered (network previously disabled or unavailable)
