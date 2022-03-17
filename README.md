@@ -113,6 +113,7 @@ extension YourViewController: BTInOutDelegate {
     }
 }
 ```
+ Find more details regarding the errors list [here](https://docs.opap-dev.bespot.io/sdk/errors/).
 
 ### Get all available stores
 

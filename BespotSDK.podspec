@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BespotSDK"
-  spec.version      = "0.4.1"
+  spec.version      = "0.4.2"
   spec.summary      = "BespotSDK location & analytics"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  BespotSDK offers location reporting and location based analytics using BLE technology. 
+  BespotSDK offers location reporting and location based analytics using BLE technology.
                    DESC
 
   spec.homepage     = "https://gitlab.com/bespot/bespot-sdk-ios-release"
