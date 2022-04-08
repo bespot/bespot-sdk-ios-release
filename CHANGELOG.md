@@ -1,3 +1,8 @@
+# 0.4.3 (2022-04-08)
+
+### Fixed
+- Exposed `BTError` properties - made them public
+
 # 0.4.2 (2022-02-24)
 
 ### Changed
