@@ -1,3 +1,9 @@
+# 0.4.4 (2022-05-18)
+
+### Changed
+- Updated LICENCE information under README.md
+
+
 # 0.4.3 (2022-04-08)
 
 ### Fixed
