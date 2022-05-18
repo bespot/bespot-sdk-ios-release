@@ -1,9 +1,8 @@
 # Bespot iOS SDK - Release
 > Bespot iOS SDK for proximity events and analytics reporting
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.4.3-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.4.4-green)](#)
 [![Swift Version][swift-image]][swift-url]
-[![License][license-image]][license-url]
 
 Bespot iOS SDK offers proximity events and analytics reporting to 3rd party apps using BLE technology and Machine Learning methods.
 
@@ -35,7 +34,7 @@ target '[Your app]' do
   use_frameworks!
 
   # BespotSDK Framework
-  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release', :tag => '0.4.3'
+  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release', :tag => '0.4.4'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -217,15 +216,13 @@ BespotSDK.shared.setUserId(USER_IDENTIFIER)
 
 ## Support
 
-If you find a bug please fill out an issue report or contact us at dev@bespot.me
+If you find a bug please fill out an issue report or contact us at dev@bespot.com
 
 ## License
 
-(C) Copyright 2020-2021 Bespot P.C. All rights reserved. See `LICENSE` for more information.
+(C) Copyright 2020-2022 Bespot P.C. All rights reserved. See `LICENSE` for more information.
 [Bespot](https://bespot.com/) Location tracking to drive growth, profitability and customer engagement
 
 
 [swift-image]: https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/
-[license-image]: https://img.shields.io/badge/License-MIT-blue.svg
-[license-url]: https://opensource.org/licenses/MIT
