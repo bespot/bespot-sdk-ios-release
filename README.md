@@ -220,7 +220,9 @@ BespotSDK.shared.setUserId(USER_IDENTIFIER)
 If you find a bug please fill out an issue report or contact us at dev@bespot.me
 
 ## License
-Distributed under the MIT license. See ``LICENSE`` for more information.
+
+(C) Copyright 2020-2021 Bespot P.C. All rights reserved. See `LICENSE` for more information.
+[Bespot](https://bespot.com/) Location tracking to drive growth, profitability and customer engagement
 
 
 [swift-image]: https://img.shields.io/badge/swift-5.0-orange.svg
