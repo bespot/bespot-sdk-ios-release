@@ -34,7 +34,7 @@ target '[Your app]' do
   use_frameworks!
 
   # BespotSDK Framework
-  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release', :tag => '0.4.4'
+  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release', :tag => '0.4.5'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -112,6 +112,26 @@ extension YourViewController: BTInOutDelegate {
     }
 }
 ```
+### Use the `BTScannerDelegate` delegate to receive iBeacon readings
+In your view controller's ```viewDidLoad()``` method add this:
+
+```swift
+BespotSDK.shared.scannerDelegate = self
+```
+
+Extend your view controller to implement delegate methods:
+```swift
+extension YourViewController: BTScannerDelegate {
+  func didUpdateReadings(readings: [BTReading]) {
+    // TODO: Use iBeacon readings
+  }
+
+  func didFailReadings(error: BTError) {
+    // TODO: Inspect possible errors
+  }
+}
+```
+
  Find more details regarding the errors list [here](https://docs.opap-dev.bespot.io/sdk/errors/).
 
 ### Get all available stores
