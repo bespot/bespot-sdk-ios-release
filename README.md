@@ -1,7 +1,7 @@
 # Bespot iOS SDK - Release
 > Bespot iOS SDK for proximity events and analytics reporting
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.4.4-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.4.5-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 Bespot iOS SDK offers proximity events and analytics reporting to 3rd party apps using BLE technology and Machine Learning methods.
