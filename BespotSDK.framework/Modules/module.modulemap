@@ -6,6 +6,6 @@ framework module BespotSDK {
 }
 
 module BespotSDK.Swift {
-    header "BespotSDK-Swift.h"
-    requires objc
+  header "BespotSDK-Swift.h"
+  requires objc
 }
