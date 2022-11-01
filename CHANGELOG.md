@@ -1,3 +1,11 @@
+# 0.4.5 (2022-10-27)
+
+### Added
+- iBeacon scanning capability added (introduced `BTiBeaconScanner` class)
+
+### Changed  
+- Variables (distance, rssi, txPower, UUID, major, minor, profileType) of `BTReading` class made publicly accessible
+
 # 0.4.4 (2022-05-18)
 
 ### Changed
