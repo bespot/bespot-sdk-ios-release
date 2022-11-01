@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BespotSDK"
-  spec.version      = "0.4.3"
+  spec.version      = "0.4.5"
   spec.summary      = "BespotSDK location & analytics"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   BespotSDK offers location reporting and location based analytics using BLE technology.
                    DESC
 
-  spec.homepage     = "https://gitlab.com/bespot/bespot-sdk-ios-release"
+  spec.homepage     = "https://github.com/bespot/bespot-sdk-ios-release"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Konstantinos Dimitros" => "k.dimitros@bespot.com" }
+  spec.author               = "Bespot private company"
   # Or just: spec.author    = "Konstantinos Dimitros"
   # spec.authors            = { "Konstantinos Dimitros" => "k.dimitros@gmail.com" }
   # spec.social_media_url   = "https://twitter.com/Konstantinos Dimitros"
@@ -84,7 +84,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://gitlab.com/bespot/bespot-sdk-ios-release.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/bespot/bespot-sdk-ios-release.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
