@@ -1,0 +1,182 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BespotSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Alamofire
+@_exported import BespotSDK
+import CoreBluetooth
+import CoreLocation
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+public enum BTErrorType : Swift.String, Swift.Decodable {
+  case indoorDataModelNotFound
+  case noStoreNearby
+  case sessionEndError
+  case sessionNotFound
+  case inoutUnavailable
+  case multipleStores
+  case noStoresFound
+  case noLocationOrReadingsData
+  case storeUnderMaintenance
+  case tokenNotValid
+  case noStoreReadings
+  case noActiveAccount
+  case notAuthenticated
+  case permissionDenied
+  case profileCannotBeEmpty
+  case deviceNotSupported
+  case noStatusAvailable
+  case notSubscribed
+  case alreadyScanning
+  case encodingFailed
+  case errorConvertingReadings
+  case unknownServerError
+  case internalClientError
+  case networkError
+  case notInitialised
+  case bluetoothError
+  case bluetoothPermissionDenied
+  case noBeaconsUUIDAvailable
+  case notSupportedBeaconDevice
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct BTError : Swift.Decodable {
+  public let detail: Swift.String
+  public let code: BespotSDK.BTErrorType
+  public init(from decoder: Swift.Decoder) throws
+}
+extension BespotSDK.BTError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+public protocol BTScannerDelegate {
+  func didUpdateReadings(readings: [BespotSDK.BTReading])
+  func didFailReadings(error: BespotSDK.BTError)
+}
+extension BespotSDK.BTScannerDelegate {
+  public func didFailReadings(error: BespotSDK.BTError)
+}
+public protocol BTConfigurationDelegate {
+  func didCompleteConfiguration()
+  func didFailUpdateConfiguration(error: BespotSDK.BTError)
+}
+extension BespotSDK.BTConfigurationDelegate {
+  public func didCompleteConfiguration()
+  public func didFailUpdateConfiguration(error: BespotSDK.BTError)
+}
+public protocol BTInOutDelegate {
+  func didUpdateInOut(status: BespotSDK.BTInOutStatus)
+  func didFailUpdateInOut(error: BespotSDK.BTError)
+}
+extension BespotSDK.BTInOutDelegate {
+  public func didFailUpdateInOut(error: BespotSDK.BTError)
+}
+@_hasMissingDesignatedInitializers open class BespotSDK {
+  public static let shared: BespotSDK.BespotSDK
+  public var configurationDelegate: BespotSDK.BTConfigurationDelegate?
+  public var inOutDelegate: BespotSDK.BTInOutDelegate?
+  public var scannerDelegate: BespotSDK.BTScannerDelegate?
+  public func configure(applicationId: Swift.String, applicationSecret: Swift.String, params: [Swift.String : Any]? = nil)
+  public func getStores(completion: @escaping (_ stores: [BespotSDK.BTStore]?, _ error: BespotSDK.BTError?) -> Swift.Void)
+  public func subscribeForInOutUpdates()
+  public func subscribeForInOutUpdates(params: [Swift.String : Any])
+  public func subscribeForInOutUpdates(coordinates: CoreLocation.CLLocationCoordinate2D?)
+  public func subscribeForInOutUpdates(coordinates: CoreLocation.CLLocationCoordinate2D?, params: [Swift.String : Any])
+  public func getLastInOutStatus() -> (BespotSDK.BTInOutStatus?, BespotSDK.BTError?)
+  public func unsubscribe()
+  public func setUserId(_ userId: Swift.String)
+  public func startBeaconScanning(profileType: BespotSDK.BTProfileType, iBeaconUUIDsToScan: [Swift.String]? = nil, params: [Swift.String : Any]? = nil)
+  public func stopBeaconScanning()
+  @objc deinit
+}
+public enum BTProfileType : Swift.String, Swift.Encodable {
+  case iBeacon
+  case eddystone
+  case eid
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct BTReading : Swift.Encodable {
+  public let distance: Swift.Double
+  public let rssi: Swift.Int
+  public var txPower: Swift.Int?
+  public var UUID: Swift.String?
+  public var major: Swift.UInt16?
+  public var minor: Swift.UInt16?
+  public let profileType: BespotSDK.BTProfileType
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension BespotSDK.BTReading : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension BespotSDK.BTReading : Swift.Equatable {
+  public static func == (lhs: BespotSDK.BTReading, rhs: BespotSDK.BTReading) -> Swift.Bool
+}
+public struct BTStore : Swift.Decodable {
+  public let uuid: Swift.String
+  public let name: Swift.String
+  public let storeCode: Swift.String
+  public let address: Swift.String
+  public let latitude: Swift.Double?
+  public let longitude: Swift.Double?
+  public init(from decoder: Swift.Decoder) throws
+}
+extension BespotSDK.BTStore : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+public enum BTInOutStatusType : Swift.String, Swift.Decodable {
+  case inside
+  case outside
+  case away
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct BTInOutStatus : Swift.Decodable {
+  public let status: BespotSDK.BTInOutStatusType
+  public let storeCode: Swift.String?
+  public let timestamp: Swift.Int64
+  public let eids: [Swift.String]?
+  public var datetime: Foundation.Date {
+    get
+  }
+}
+extension BespotSDK.BTInOutStatus : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension BespotSDK.BTInOutStatus : Swift.CustomDebugStringConvertible {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+extension BespotSDK.BTInOutStatus {
+  public init(from decoder: Swift.Decoder) throws
+}
+extension BespotSDK.BTErrorType : Swift.Equatable {}
+extension BespotSDK.BTErrorType : Swift.Hashable {}
+extension BespotSDK.BTErrorType : Swift.RawRepresentable {}
+extension BespotSDK.BTProfileType : Swift.Equatable {}
+extension BespotSDK.BTProfileType : Swift.Hashable {}
+extension BespotSDK.BTProfileType : Swift.RawRepresentable {}
+extension BespotSDK.BTInOutStatusType : Swift.Equatable {}
+extension BespotSDK.BTInOutStatusType : Swift.Hashable {}
+extension BespotSDK.BTInOutStatusType : Swift.RawRepresentable {}
