@@ -1,7 +1,7 @@
 # Bespot iOS SDK - Release
 > Bespot iOS SDK for proximity events and analytics reporting
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.4.5-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.4.6-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 Bespot iOS SDK offers proximity events and analytics reporting to 3rd party apps using BLE technology and Machine Learning methods.
@@ -16,7 +16,7 @@ Bespot iOS SDK offers proximity events and analytics reporting to 3rd party apps
 ## Requirements
 
 - iOS 10.0+
-- Xcode 13
+- Xcode 14
 
 ## Installation
 
@@ -34,14 +34,14 @@ target '[Your app]' do
   use_frameworks!
 
   # BespotSDK Framework
-  pod 'BespotSDK', :git => 'https://gitlab.com/bespot/bespot-sdk-ios-release', :tag => '0.4.5'
+  pod 'BespotSDK', :git => 'https://github.com/bespot/bespot-sdk-ios-release', :tag => '0.4.6'
 
   # Other CocoaPods libraries/frameworks you may use...
 
 end
 ```
 
-2. Run `pod update` for the CocoaPods to download the *BespotSDK* dependency. When you are prompted, insert the **provided** credentials (username & password) to authenticate with *GitLab*.
+2. Run `pod update` for the CocoaPods to download the *BespotSDK* dependency. When you are prompted, insert the **provided** credentials (username & password) to authenticate with *GitHub*.
 3. Run `pod install`
 
 
@@ -50,7 +50,7 @@ end
 For manually installing *BespotSDK* into your app, follow the steps below:
 
 1. Download and drop ```BespotSDK.framework``` folder in your project (select "copy items if needed" in the popup menu).
-2. Select "Embed & Sign" at the BespotSDK.framework listing in your application's Target General settings menu (Xcode 11)
+2. Select "Embed & Sign" at the BespotSDK.framework listing in your application's Target General settings menu (Xcode 14)
 
 ## Usage example
 
