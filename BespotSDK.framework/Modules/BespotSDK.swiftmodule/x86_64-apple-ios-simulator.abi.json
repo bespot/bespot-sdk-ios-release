@@ -5040,8 +5040,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "BespotSDK",
-        "printedName": "BespotSDK",
+        "name": "BespotSDKFramework",
+        "printedName": "BespotSDKFramework",
         "children": [
           {
             "kind": "Var",
@@ -5050,14 +5050,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "BespotSDK",
-                "printedName": "BespotSDK.BespotSDK",
-                "usr": "s:9BespotSDKAAC"
+                "name": "BespotSDKFramework",
+                "printedName": "BespotSDK.BespotSDKFramework",
+                "usr": "s:9BespotSDK0A12SDKFrameworkC"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9BespotSDKAAC6sharedABvpZ",
-            "mangledName": "$s9BespotSDKAAC6sharedABvpZ",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC6sharedACvpZ",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC6sharedACvpZ",
             "moduleName": "BespotSDK",
             "static": true,
             "declAttributes": [
@@ -5077,14 +5077,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "BespotSDK",
-                    "printedName": "BespotSDK.BespotSDK",
-                    "usr": "s:9BespotSDKAAC"
+                    "name": "BespotSDKFramework",
+                    "printedName": "BespotSDK.BespotSDKFramework",
+                    "usr": "s:9BespotSDK0A12SDKFrameworkC"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC6sharedABvgZ",
-                "mangledName": "$s9BespotSDKAAC6sharedABvgZ",
+                "usr": "s:9BespotSDK0A12SDKFrameworkC6sharedACvgZ",
+                "mangledName": "$s9BespotSDK0A12SDKFrameworkC6sharedACvgZ",
                 "moduleName": "BespotSDK",
                 "static": true,
                 "implicit": true,
@@ -5116,8 +5116,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvp",
-            "mangledName": "$s9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvp",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC21configurationDelegateAA015BTConfigurationE0_pSgvp",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC21configurationDelegateAA015BTConfigurationE0_pSgvp",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -5149,8 +5149,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvg",
-                "mangledName": "$s9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvg",
+                "usr": "s:9BespotSDK0A12SDKFrameworkC21configurationDelegateAA015BTConfigurationE0_pSgvg",
+                "mangledName": "$s9BespotSDK0A12SDKFrameworkC21configurationDelegateAA015BTConfigurationE0_pSgvg",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -5182,8 +5182,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvs",
-                "mangledName": "$s9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvs",
+                "usr": "s:9BespotSDK0A12SDKFrameworkC21configurationDelegateAA015BTConfigurationE0_pSgvs",
+                "mangledName": "$s9BespotSDK0A12SDKFrameworkC21configurationDelegateAA015BTConfigurationE0_pSgvs",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -5201,8 +5201,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvM",
-                "mangledName": "$s9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvM",
+                "usr": "s:9BespotSDK0A12SDKFrameworkC21configurationDelegateAA015BTConfigurationE0_pSgvM",
+                "mangledName": "$s9BespotSDK0A12SDKFrameworkC21configurationDelegateAA015BTConfigurationE0_pSgvM",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -5231,8 +5231,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvp",
-            "mangledName": "$s9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvp",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC13inOutDelegateAA04BTIneF0_pSgvp",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC13inOutDelegateAA04BTIneF0_pSgvp",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -5264,8 +5264,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvg",
-                "mangledName": "$s9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvg",
+                "usr": "s:9BespotSDK0A12SDKFrameworkC13inOutDelegateAA04BTIneF0_pSgvg",
+                "mangledName": "$s9BespotSDK0A12SDKFrameworkC13inOutDelegateAA04BTIneF0_pSgvg",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -5297,8 +5297,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvs",
-                "mangledName": "$s9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvs",
+                "usr": "s:9BespotSDK0A12SDKFrameworkC13inOutDelegateAA04BTIneF0_pSgvs",
+                "mangledName": "$s9BespotSDK0A12SDKFrameworkC13inOutDelegateAA04BTIneF0_pSgvs",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -5316,8 +5316,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvM",
-                "mangledName": "$s9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvM",
+                "usr": "s:9BespotSDK0A12SDKFrameworkC13inOutDelegateAA04BTIneF0_pSgvM",
+                "mangledName": "$s9BespotSDK0A12SDKFrameworkC13inOutDelegateAA04BTIneF0_pSgvM",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -5346,8 +5346,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvp",
-            "mangledName": "$s9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvp",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC15scannerDelegateAA09BTScannerE0_pSgvp",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC15scannerDelegateAA09BTScannerE0_pSgvp",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -5379,8 +5379,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvg",
-                "mangledName": "$s9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvg",
+                "usr": "s:9BespotSDK0A12SDKFrameworkC15scannerDelegateAA09BTScannerE0_pSgvg",
+                "mangledName": "$s9BespotSDK0A12SDKFrameworkC15scannerDelegateAA09BTScannerE0_pSgvg",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -5412,8 +5412,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvs",
-                "mangledName": "$s9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvs",
+                "usr": "s:9BespotSDK0A12SDKFrameworkC15scannerDelegateAA09BTScannerE0_pSgvs",
+                "mangledName": "$s9BespotSDK0A12SDKFrameworkC15scannerDelegateAA09BTScannerE0_pSgvs",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -5431,8 +5431,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvM",
-                "mangledName": "$s9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvM",
+                "usr": "s:9BespotSDK0A12SDKFrameworkC15scannerDelegateAA09BTScannerE0_pSgvM",
+                "mangledName": "$s9BespotSDK0A12SDKFrameworkC15scannerDelegateAA09BTScannerE0_pSgvM",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -5492,8 +5492,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC9configure13applicationId0D6Secret6paramsySS_SSSDySSypGSgtF",
-            "mangledName": "$s9BespotSDKAAC9configure13applicationId0D6Secret6paramsySS_SSSDySSypGSgtF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC9configure13applicationId0E6Secret6paramsySS_SSSDySSypGSgtF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC9configure13applicationId0E6Secret6paramsySS_SSSDySSypGSgtF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -5569,8 +5569,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC9getStores10completionyySayAA7BTStoreVGSg_AA7BTErrorVSgtc_tF",
-            "mangledName": "$s9BespotSDKAAC9getStores10completionyySayAA7BTStoreVGSg_AA7BTErrorVSgtc_tF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC9getStores10completionyySayAA7BTStoreVGSg_AA7BTErrorVSgtc_tF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC9getStores10completionyySayAA7BTStoreVGSg_AA7BTErrorVSgtc_tF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -5591,8 +5591,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC24subscribeForInOutUpdatesyyF",
-            "mangledName": "$s9BespotSDKAAC24subscribeForInOutUpdatesyyF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC24subscribeForInOutUpdatesyyF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC24subscribeForInOutUpdatesyyF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -5632,8 +5632,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC24subscribeForInOutUpdates6paramsySDySSypG_tF",
-            "mangledName": "$s9BespotSDKAAC24subscribeForInOutUpdates6paramsySDySSypG_tF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC24subscribeForInOutUpdates6paramsySDySSypG_tF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC24subscribeForInOutUpdates6paramsySDySSypG_tF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -5668,8 +5668,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC24subscribeForInOutUpdates11coordinatesySo22CLLocationCoordinate2DVSg_tF",
-            "mangledName": "$s9BespotSDKAAC24subscribeForInOutUpdates11coordinatesySo22CLLocationCoordinate2DVSg_tF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC24subscribeForInOutUpdates11coordinatesySo22CLLocationCoordinate2DVSg_tF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC24subscribeForInOutUpdates11coordinatesySo22CLLocationCoordinate2DVSg_tF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -5723,8 +5723,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC24subscribeForInOutUpdates11coordinates6paramsySo22CLLocationCoordinate2DVSg_SDySSypGtF",
-            "mangledName": "$s9BespotSDKAAC24subscribeForInOutUpdates11coordinates6paramsySo22CLLocationCoordinate2DVSg_SDySSypGtF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC24subscribeForInOutUpdates11coordinates6paramsySo22CLLocationCoordinate2DVSg_SDySSypGtF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC24subscribeForInOutUpdates11coordinates6paramsySo22CLLocationCoordinate2DVSg_SDySSypGtF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -5775,8 +5775,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC18getLastInOutStatusAA04BTInfG0VSg_AA7BTErrorVSgtyF",
-            "mangledName": "$s9BespotSDKAAC18getLastInOutStatusAA04BTInfG0VSg_AA7BTErrorVSgtyF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC18getLastInOutStatusAA04BTIngH0VSg_AA7BTErrorVSgtyF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC18getLastInOutStatusAA04BTIngH0VSg_AA7BTErrorVSgtyF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -5797,8 +5797,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC11unsubscribeyyF",
-            "mangledName": "$s9BespotSDKAAC11unsubscribeyyF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC11unsubscribeyyF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC11unsubscribeyyF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -5825,8 +5825,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC9setUserIdyySSF",
-            "mangledName": "$s9BespotSDKAAC9setUserIdyySSF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC9setUserIdyySSF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC9setUserIdyySSF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -5904,8 +5904,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC19startBeaconScanning11profileType01iD11UUIDsToScan6paramsyAA09BTProfileG0O_SaySSGSgSDySSypGSgtF",
-            "mangledName": "$s9BespotSDKAAC19startBeaconScanning11profileType01iD11UUIDsToScan6paramsyAA09BTProfileG0O_SaySSGSgSDySSypGSgtF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC19startBeaconScanning11profileType01iE11UUIDsToScan6paramsyAA09BTProfileH0O_SaySSGSgSDySSypGSgtF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC19startBeaconScanning11profileType01iE11UUIDsToScan6paramsyAA09BTProfileH0O_SaySSGSgSDySSypGSgtF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -5926,8 +5926,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC18stopBeaconScanningyyF",
-            "mangledName": "$s9BespotSDKAAC18stopBeaconScanningyyF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC18stopBeaconScanningyyF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC18stopBeaconScanningyyF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -5975,8 +5975,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC19processBeaconParamsyySDySSypGSgF",
-            "mangledName": "$s9BespotSDKAAC19processBeaconParamsyySDySSypGSgF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC19processBeaconParamsyySDySSypGSgF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC19processBeaconParamsyySDySSypGSgF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -6023,8 +6023,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC13processParamsyySDySSypGSgF",
-            "mangledName": "$s9BespotSDKAAC13processParamsyySDySSypGSgF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC13processParamsyySDySSypGSgF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC13processParamsyySDySSypGSgF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -6039,14 +6039,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "BespotSDK",
-                "printedName": "BespotSDK.BespotSDK",
-                "usr": "s:9BespotSDKAAC"
+                "name": "BespotSDKFramework",
+                "printedName": "BespotSDK.BespotSDKFramework",
+                "usr": "s:9BespotSDK0A12SDKFrameworkC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9BespotSDKAACABycfc",
-            "mangledName": "$s9BespotSDKAACABycfc",
+            "usr": "s:9BespotSDK0A12SDKFrameworkCACycfc",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkCACycfc",
             "moduleName": "BespotSDK",
             "implicit": true,
             "init_kind": "Designated"
@@ -6075,8 +6075,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC13didFindBeacon13beaconScanner0F4InfoyAA0eG0C_AA0eH0CtF",
-            "mangledName": "$s9BespotSDKAAC13didFindBeacon13beaconScanner0F4InfoyAA0eG0C_AA0eH0CtF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC13didFindBeacon13beaconScanner0G4InfoyAA0fH0C_AA0fI0CtF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC13didFindBeacon13beaconScanner0G4InfoyAA0fH0C_AA0fI0CtF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -6109,8 +6109,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC13didLoseBeacon13beaconScanner0F4InfoyAA0eG0C_AA0eH0CtF",
-            "mangledName": "$s9BespotSDKAAC13didLoseBeacon13beaconScanner0F4InfoyAA0eG0C_AA0eH0CtF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC13didLoseBeacon13beaconScanner0G4InfoyAA0fH0C_AA0fI0CtF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC13didLoseBeacon13beaconScanner0G4InfoyAA0fH0C_AA0fI0CtF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -6143,8 +6143,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC15didUpdateBeacon13beaconScanner0F4InfoyAA0eG0C_AA0eH0CtF",
-            "mangledName": "$s9BespotSDKAAC15didUpdateBeacon13beaconScanner0F4InfoyAA0eG0C_AA0eH0CtF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC15didUpdateBeacon13beaconScanner0G4InfoyAA0fH0C_AA0fI0CtF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC15didUpdateBeacon13beaconScanner0G4InfoyAA0fH0C_AA0fI0CtF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -6183,8 +6183,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC19didObserveURLBeacon13beaconScanner3URL4RSSIyAA06BeaconG0C_So5NSURLCSitF",
-            "mangledName": "$s9BespotSDKAAC19didObserveURLBeacon13beaconScanner3URL4RSSIyAA06BeaconG0C_So5NSURLCSitF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC19didObserveURLBeacon13beaconScanner3URL4RSSIyAA06BeaconH0C_So5NSURLCSitF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC19didObserveURLBeacon13beaconScanner3URL4RSSIyAA06BeaconH0C_So5NSURLCSitF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "declAttributes": [
@@ -6219,8 +6219,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC16didUpdateBeacons7beaconsySaySo8CLBeaconCG_tF",
-            "mangledName": "$s9BespotSDKAAC16didUpdateBeacons7beaconsySaySo8CLBeaconCG_tF",
+            "usr": "s:9BespotSDK0A12SDKFrameworkC16didUpdateBeacons7beaconsySaySo8CLBeaconCG_tF",
+            "mangledName": "$s9BespotSDK0A12SDKFrameworkC16didUpdateBeacons7beaconsySaySo8CLBeaconCG_tF",
             "moduleName": "BespotSDK",
             "isOpen": true,
             "isFromExtension": true,
@@ -6228,8 +6228,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:9BespotSDKAAC",
-        "mangledName": "$s9BespotSDKAAC",
+        "usr": "s:9BespotSDK0A12SDKFrameworkC",
+        "mangledName": "$s9BespotSDK0A12SDKFrameworkC",
         "moduleName": "BespotSDK",
         "isOpen": true,
         "declAttributes": [
@@ -20748,37 +20748,37 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDKFramework.swift",
       "kind": "FloatLiteral",
-      "offset": 11169,
+      "offset": 11196,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDKFramework.swift",
       "kind": "FloatLiteral",
-      "offset": 11249,
+      "offset": 11276,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDKFramework.swift",
       "kind": "FloatLiteral",
-      "offset": 11335,
+      "offset": 11362,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDKFramework.swift",
       "kind": "Array",
-      "offset": 11714,
+      "offset": 11741,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDKFramework.swift",
       "kind": "Array",
-      "offset": 12031,
+      "offset": 12058,
       "length": 2,
       "value": "[]"
     },

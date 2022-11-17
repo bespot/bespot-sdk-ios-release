@@ -79,8 +79,8 @@ public protocol BTInOutDelegate {
 extension BespotSDK.BTInOutDelegate {
   public func didFailUpdateInOut(error: BespotSDK.BTError)
 }
-@_hasMissingDesignatedInitializers open class BespotSDK {
-  public static let shared: BespotSDK.BespotSDK
+@_hasMissingDesignatedInitializers open class BespotSDKFramework {
+  public static let shared: BespotSDK.BespotSDKFramework
   public var configurationDelegate: BespotSDK.BTConfigurationDelegate?
   public var inOutDelegate: BespotSDK.BTInOutDelegate?
   public var scannerDelegate: BespotSDK.BTScannerDelegate?
