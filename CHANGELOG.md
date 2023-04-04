@@ -1,3 +1,6 @@
+# 0.4.7 (2023-04-05)
+- SDK: Support swift 5.8
+
 # 0.4.6 (2022-11-11)
 - SDK: Support swift 5.7.1
 
