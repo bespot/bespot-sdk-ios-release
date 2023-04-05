@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BespotSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Alamofire
@@ -50,7 +50,7 @@ public enum BTErrorType : Swift.String, Swift.Decodable {
 public struct BTError : Swift.Decodable {
   public let detail: Swift.String
   public let code: BespotSDK.BTErrorType
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension BespotSDK.BTError : Swift.CustomStringConvertible {
   public var description: Swift.String {
@@ -81,9 +81,9 @@ extension BespotSDK.BTInOutDelegate {
 }
 @_hasMissingDesignatedInitializers open class BespotSDK {
   public static let shared: BespotSDK.BespotSDK
-  public var configurationDelegate: BespotSDK.BTConfigurationDelegate?
-  public var inOutDelegate: BespotSDK.BTInOutDelegate?
-  public var scannerDelegate: BespotSDK.BTScannerDelegate?
+  public var configurationDelegate: (any BespotSDK.BTConfigurationDelegate)?
+  public var inOutDelegate: (any BespotSDK.BTInOutDelegate)?
+  public var scannerDelegate: (any BespotSDK.BTScannerDelegate)?
   public func configure(applicationId: Swift.String, applicationSecret: Swift.String, params: [Swift.String : Any]? = nil)
   public func getStores(completion: @escaping (_ stores: [BespotSDK.BTStore]?, _ error: BespotSDK.BTError?) -> Swift.Void)
   public func subscribeForInOutUpdates()
@@ -115,7 +115,7 @@ public struct BTReading : Swift.Encodable {
   public var major: Swift.UInt16?
   public var minor: Swift.UInt16?
   public let profileType: BespotSDK.BTProfileType
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension BespotSDK.BTReading : Swift.CustomStringConvertible {
   public var description: Swift.String {
@@ -132,7 +132,7 @@ public struct BTStore : Swift.Decodable {
   public let address: Swift.String
   public let latitude: Swift.Double?
   public let longitude: Swift.Double?
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension BespotSDK.BTStore : Swift.CustomStringConvertible {
   public var description: Swift.String {
@@ -169,7 +169,7 @@ extension BespotSDK.BTInOutStatus : Swift.CustomDebugStringConvertible {
   }
 }
 extension BespotSDK.BTInOutStatus {
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension BespotSDK.BTErrorType : Swift.Equatable {}
 extension BespotSDK.BTErrorType : Swift.Hashable {}
