@@ -4,6 +4,34 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/Pods_BespotSDK.framework/Info.plist</key>
+		<data>
+		CYKAzyMKvaWsob5PwNkIhutvIrI=
+		</data>
+		<key>Frameworks/Pods_BespotSDK.framework/Pods_BespotSDK</key>
+		<data>
+		h6dsW+y0tTscqWgzWoTQwqUS/cM=
+		</data>
+		<key>Frameworks/Pods_BespotSDK.framework/_CodeSignature/CodeDirectory</key>
+		<data>
+		7gW44Vku7Utdo84inVKZ2Ev7nxM=
+		</data>
+		<key>Frameworks/Pods_BespotSDK.framework/_CodeSignature/CodeRequirements</key>
+		<data>
+		F9uwZDKfwqKXQrPY8Li5/Bgki4U=
+		</data>
+		<key>Frameworks/Pods_BespotSDK.framework/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		5ohYNc9m8smX55yc8/fLwpApN68=
+		</data>
+		<key>Frameworks/Pods_BespotSDK.framework/_CodeSignature/CodeResources</key>
+		<data>
+		W+S9dQLl2Q4PUdUWJhx9GqkDfFk=
+		</data>
+		<key>Frameworks/Pods_BespotSDK.framework/_CodeSignature/CodeSignature</key>
+		<data>
+		dmUd8gCyskK//lWKzxrT3SiFBrM=
+		</data>
 		<key>Headers/BespotSDK-Swift.h</key>
 		<data>
 		JAl214pnVaLvF0HZzJnBsXVKGU4=
@@ -43,6 +71,55 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/Pods_BespotSDK.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2UaoN1F+sCLC+IZQFu0eu4IIWf2Y5K6yA47fFycgiic=
+			</data>
+		</dict>
+		<key>Frameworks/Pods_BespotSDK.framework/Pods_BespotSDK</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/d3FDf/SN6f4ixV9bYDZyz3cE/8hrxWR/+K/K+FiBog=
+			</data>
+		</dict>
+		<key>Frameworks/Pods_BespotSDK.framework/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+jKD95qnoKAFw9V5t+ytyuYkymW1S2KofeHiNTiqaOY=
+			</data>
+		</dict>
+		<key>Frameworks/Pods_BespotSDK.framework/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kwfcbQPV8LtCvbz9VgcuyQgHAxhL0/9Hee21eKDBIFU=
+			</data>
+		</dict>
+		<key>Frameworks/Pods_BespotSDK.framework/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7Ny5wA83Ca8RObvyBn69rEnuh8Q9z0pKd/0O5HX2RIQ=
+			</data>
+		</dict>
+		<key>Frameworks/Pods_BespotSDK.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oIp70FSOD/UitlA9o6tWqUQBHrBPVeCWY6hOzcOGuFM=
+			</data>
+		</dict>
+		<key>Frameworks/Pods_BespotSDK.framework/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3+YATDeGWOer+wMT2ii65I0me2NElOzD6sTGrLETxyw=
+			</data>
+		</dict>
 		<key>Headers/BespotSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
