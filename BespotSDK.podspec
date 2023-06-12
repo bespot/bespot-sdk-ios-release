@@ -8,6 +8,16 @@
 
 Pod::Spec.new do |spec|
 
+  # ―――  Custom spec variables  ―――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  Define here any custom spec variables.
+  #
+
+  def spec.build_number
+    # Use this local variable to keep the build number.
+    "17"
+  end
+
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  These will help people to find your library, and whilst it
@@ -138,6 +148,9 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  spec.pod_target_xcconfig = {
+    'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) BESPOT_SDK_VERSION=' + spec.version.to_s + ' ' + 'BESPOT_SDK_BUILD_NUMBER=' + spec.build_number
+  }
   spec.dependency "Alamofire", "~> 5.4.1"
 
 end
