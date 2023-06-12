@@ -260,6 +260,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ObjectiveC;
 #endif
 
 #endif
@@ -280,6 +281,24 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSString;
+
+/// BespotSDK is the main SDK class which offers location capabilities and proximity reporting. Currently, it is intended to
+/// be used as a singleton (only one instance per host application). CoreBluetooth is used, thus
+/// ‘NSBluetoothAlwaysUsageDescription’ should exist inside the ‘Info.plist’ file of the host application.
+SWIFT_CLASS("_TtC9BespotSDK9BespotSDK")
+@interface BespotSDK : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable sdkVersion;)
++ (NSString * _Nullable)sdkVersion SWIFT_WARN_UNUSED_RESULT;
++ (void)setSdkVersion:(NSString * _Nullable)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable sdkBuildNumber;)
++ (NSString * _Nullable)sdkBuildNumber SWIFT_WARN_UNUSED_RESULT;
++ (void)setSdkBuildNumber:(NSString * _Nullable)value;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
 
 #endif
 #if defined(__cplusplus)
