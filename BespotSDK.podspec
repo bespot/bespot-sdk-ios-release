@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
 
   def spec.build_number
     # Use this local variable to keep the build number.
-    "22"
+    "23"
   end
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BespotSDK"
-  spec.version      = "0.4.8-test-22"
+  spec.version      = "0.4.8-test-23"
   spec.summary      = "BespotSDK location & analytics"
 
   # This description is used to generate tags and improve search results.
