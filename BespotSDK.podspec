@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
 
   def spec.build_number
     # Use this local variable to keep the build number.
-    "23"
+    "24"
   end
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BespotSDK"
-  spec.version      = "0.4.8-test-23"
+  spec.version      = "0.4.8-test-24"
   spec.summary      = "BespotSDK location & analytics"
 
   # This description is used to generate tags and improve search results.
@@ -148,7 +148,7 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "BESPOT_SDK_VERSION=\@\"0.4.9\"" }
+  spec.pod_target_xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "BESPOT_SDK_VERSION=\@\"0.4.9\"" }
   spec.dependency "Alamofire", "~> 5.4.1"
 
 end
