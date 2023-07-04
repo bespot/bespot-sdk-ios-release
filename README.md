@@ -1,7 +1,7 @@
 # Bespot iOS SDK - Release
 > Bespot iOS SDK for proximity events and analytics reporting
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.4.7-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.4.8-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 Bespot iOS SDK offers proximity events and analytics reporting to 3rd party apps using BLE technology and Machine Learning methods.
@@ -34,7 +34,7 @@ target '[Your app]' do
   use_frameworks!
 
   # BespotSDK Framework
-  pod 'BespotSDK', :git => 'https://github.com/bespot/bespot-sdk-ios-release', :tag => '0.4.7'
+  pod 'BespotSDK', :git => 'https://github.com/bespot/bespot-sdk-ios-release', :tag => '0.4.8'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -228,10 +228,16 @@ And then, implement these selector methods accordingly:
 ```
 
 ### Set user identifier
-After initializaion/configuration is complete, user identifier can be provided at any time using the following code:
+After initialization/configuration is complete, user identifier can be provided at any time using the following code:
 
 ```swift
 BespotSDK.shared.setUserId(USER_IDENTIFIER)
+```
+### Set alternative user identifier
+After initialization/configuration is complete, alternative user identifier can be provided at any time using the following code:
+
+```swift
+BespotSDK.shared.setAltUserId(ALTERNATIVE_USER_IDENTIFIER)
 ```
 
 ## Support

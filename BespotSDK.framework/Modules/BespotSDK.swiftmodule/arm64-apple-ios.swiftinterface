@@ -93,6 +93,7 @@ extension BespotSDK.BTInOutDelegate {
   public func getLastInOutStatus() -> (BespotSDK.BTInOutStatus?, BespotSDK.BTError?)
   public func unsubscribe()
   public func setUserId(_ userId: Swift.String)
+  public func setAltUserId(_ altUserId: Swift.String)
   public func startBeaconScanning(profileType: BespotSDK.BTProfileType, iBeaconUUIDsToScan: [Swift.String]? = nil, params: [Swift.String : Any]? = nil)
   public func stopBeaconScanning()
   @objc deinit

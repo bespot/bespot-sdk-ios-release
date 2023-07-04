@@ -1,3 +1,7 @@
+# 0.4.8 (2023-06-28)
+### Added
+- Expose `setAltUserId(_:)` function for setting an alternative user ID
+
 # 0.4.7 (2023-04-05)
 - SDK: Support swift 5.8
 
