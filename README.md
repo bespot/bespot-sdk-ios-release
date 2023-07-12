@@ -239,6 +239,8 @@ After initialization/configuration is complete, alternative user identifier can 
 ```swift
 BespotSDK.shared.setAltUserId(ALTERNATIVE_USER_IDENTIFIER)
 ```
+## App Store Connect distribution
+Xcode 13 has added an option "Manage Version and Build Number" during the process of app distribution. Please be sure to have this option disabled in order for SDK versions to be correctly reported.
 
 ## Support
 
@@ -246,7 +248,7 @@ If you find a bug please fill out an issue report or contact us at dev@bespot.co
 
 ## License
 
-(C) Copyright 2020-2022 Bespot P.C. All rights reserved. See `LICENSE` for more information.
+(C) Copyright 2020-2023 Bespot P.C. All rights reserved. See `LICENSE` for more information.
 [Bespot](https://bespot.com/) Location tracking to drive growth, profitability and customer engagement
 
 
