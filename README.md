@@ -1,7 +1,7 @@
 # Bespot iOS SDK - Release
 > Bespot iOS SDK for proximity events and analytics reporting
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.4.8-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.4.9-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 Bespot iOS SDK offers proximity events and analytics reporting to 3rd party apps using BLE technology and Machine Learning methods.
@@ -34,7 +34,7 @@ target '[Your app]' do
   use_frameworks!
 
   # BespotSDK Framework
-  pod 'BespotSDK', :git => 'https://github.com/bespot/bespot-sdk-ios-release', :tag => '0.4.8'
+  pod 'BespotSDK', :git => 'https://github.com/bespot/bespot-sdk-ios-release', :tag => '0.4.9'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -239,6 +239,8 @@ After initialization/configuration is complete, alternative user identifier can 
 ```swift
 BespotSDK.shared.setAltUserId(ALTERNATIVE_USER_IDENTIFIER)
 ```
+## App Store Connect distribution
+Xcode 13 has added an option "Manage Version and Build Number" during the process of app distribution. Please be sure to have this option disabled in order for SDK versions to be correctly reported.
 
 ## Support
 
@@ -246,7 +248,7 @@ If you find a bug please fill out an issue report or contact us at dev@bespot.co
 
 ## License
 
-(C) Copyright 2020-2022 Bespot P.C. All rights reserved. See `LICENSE` for more information.
+(C) Copyright 2020-2023 Bespot P.C. All rights reserved. See `LICENSE` for more information.
 [Bespot](https://bespot.com/) Location tracking to drive growth, profitability and customer engagement
 
 

@@ -1,3 +1,7 @@
+# 0.4.9 (2023-07-12)
+### Added
+- Support for Swift 5.8.1
+
 # 0.4.8 (2023-06-28)
 ### Added
 - Expose `setAltUserId(_:)` function for setting an alternative user ID
