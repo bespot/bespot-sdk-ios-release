@@ -1,6 +1,6 @@
 # 0.4.9 (2023-07-12)
 ### Added
-- SDK: Support swift 5.8.1
+- Support for Swift 5.8.1
 
 # 0.4.8 (2023-06-28)
 ### Added
