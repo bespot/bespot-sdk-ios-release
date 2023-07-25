@@ -1,3 +1,7 @@
+# 0.4.10 (2023-08-04)
+### Added
+- Initialise BespotSDK when we turn on the network by running the application initially without network.
+
 # 0.4.9 (2023-07-12)
 ### Added
 - Support for Swift 5.8.1
