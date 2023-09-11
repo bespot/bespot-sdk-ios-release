@@ -1,6 +1,6 @@
 # 0.4.10 (2023-08-04)
 ### Added
-- Initialise BespotSDK when we turn on the network by running the application initially without network.
+- Complete BespotSDK initialisation (authenticate with server) when network is not available initially but becomes available later on.
 
 # 0.4.9 (2023-07-12)
 ### Added
