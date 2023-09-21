@@ -1,3 +1,6 @@
+# 0.4.11 (2023-09-26)
+- Support Swift 5.9
+
 # 0.4.10 (2023-08-04)
 ### Added
 - Complete BespotSDK initialisation (authenticate with server) when network is not available initially but becomes available later on.

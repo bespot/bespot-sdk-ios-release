@@ -4926,721 +4926,721 @@
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 1476,
+      "offset": 1514,
       "length": 27,
       "value": "\"BeaconID beacon: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 1502,
+      "offset": 1540,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 1530,
+      "offset": 1568,
       "length": 44,
       "value": "\"BeaconID with invalid type (\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 1572,
+      "offset": 1610,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 1661,
+      "offset": 1699,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 1724,
+      "offset": 1762,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "BooleanLiteral",
-      "offset": 1739,
+      "offset": 1777,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 1766,
+      "offset": 1804,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 1782,
+      "offset": 1820,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 740,
+      "offset": 778,
       "length": 8,
       "value": "\"BespotSDK.BeaconID\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "BooleanLiteral",
-      "offset": 1925,
+      "offset": 1963,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "BooleanLiteral",
-      "offset": 2027,
+      "offset": 2065,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "BooleanLiteral",
-      "offset": 2047,
+      "offset": 2085,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 2303,
+      "offset": 2341,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 2354,
+      "offset": 2392,
       "length": 4,
       "value": "0x10"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 2405,
+      "offset": 2443,
       "length": 4,
       "value": "0x20"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 2456,
+      "offset": 2494,
       "length": 4,
       "value": "0x30"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 2706,
+      "offset": 2744,
       "length": 20,
       "value": "\"Unknown Frame Type\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 2768,
+      "offset": 2806,
       "length": 11,
       "value": "\"UID Frame\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 2821,
+      "offset": 2859,
       "length": 11,
       "value": "\"URL Frame\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 2880,
+      "offset": 2918,
       "length": 11,
       "value": "\"TLM Frame\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 2933,
+      "offset": 2971,
       "length": 11,
       "value": "\"EID Frame\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 3380,
+      "offset": 3418,
       "length": 6,
       "value": "\"FEAA\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 3485,
+      "offset": 3523,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 3574,
+      "offset": 3612,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 3673,
+      "offset": 3711,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 3787,
+      "offset": 3825,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 3907,
+      "offset": 3945,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 4021,
+      "offset": 4059,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 4332,
+      "offset": 4370,
       "length": 6,
       "value": "\"FEAA\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 4765,
+      "offset": 4803,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 4850,
+      "offset": 4888,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 4945,
+      "offset": 4983,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 4993,
+      "offset": 5031,
       "length": 63,
       "value": "\"Unexpected non UID Frame passed to BeaconInfoForUIDFrameData.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 5116,
+      "offset": 5154,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 5137,
+      "offset": 5175,
       "length": 79,
       "value": "\"Frame Data for UID Frame unexpectedly truncated in BeaconInfoForUIDFrameData.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 5282,
+      "offset": 5320,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 5336,
+      "offset": 5374,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 5340,
+      "offset": 5378,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 5693,
+      "offset": 5731,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 5778,
+      "offset": 5816,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 5873,
+      "offset": 5911,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 5921,
+      "offset": 5959,
       "length": 63,
       "value": "\"Unexpected non EID Frame passed to BeaconInfoForEIDFrameData.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 6044,
+      "offset": 6082,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 6067,
+      "offset": 6105,
       "length": 79,
       "value": "\"Frame Data for EID Frame unexpectedly truncated in BeaconInfoForEIDFrameData.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 6212,
+      "offset": 6250,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 6266,
+      "offset": 6304,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 6270,
+      "offset": 6308,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 6580,
+      "offset": 6618,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 6661,
+      "offset": 6699,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 6796,
+      "offset": 6834,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 6850,
+      "offset": 6888,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 7138,
+      "offset": 7176,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "FloatLiteral",
-      "offset": 7177,
+      "offset": 7215,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "FloatLiteral",
-      "offset": 7181,
+      "offset": 7219,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7261,
+      "offset": 7299,
       "length": 97,
       "value": "\"Eddystone \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7288,
+      "offset": 7326,
       "length": 1,
       "value": "\", txPower: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7314,
+      "offset": 7352,
       "length": 1,
       "value": "\", RSSI: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7334,
+      "offset": 7372,
       "length": 1,
       "value": "\", Distance: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7357,
+      "offset": 7395,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7396,
+      "offset": 7434,
       "length": 101,
       "value": "\"Eddystone EID \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7427,
+      "offset": 7465,
       "length": 1,
       "value": "\", txPower: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7453,
+      "offset": 7491,
       "length": 1,
       "value": "\", RSSI: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7473,
+      "offset": 7511,
       "length": 1,
       "value": "\", Distance: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7496,
+      "offset": 7534,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 7601,
+      "offset": 7639,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7620,
+      "offset": 7658,
       "length": 13,
       "value": "\"http:\/\/www.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 7643,
+      "offset": 7681,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7662,
+      "offset": 7700,
       "length": 14,
       "value": "\"https:\/\/www.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 7686,
+      "offset": 7724,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7705,
+      "offset": 7743,
       "length": 9,
       "value": "\"http:\/\/\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 7724,
+      "offset": 7762,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7743,
+      "offset": 7781,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 7889,
+      "offset": 7927,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7908,
+      "offset": 7946,
       "length": 7,
       "value": "\".com\/\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 7925,
+      "offset": 7963,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7944,
+      "offset": 7982,
       "length": 7,
       "value": "\".org\/\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 7961,
+      "offset": 7999,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 7980,
+      "offset": 8018,
       "length": 7,
       "value": "\".edu\/\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 7997,
+      "offset": 8035,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 8016,
+      "offset": 8054,
       "length": 7,
       "value": "\".net\/\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 8033,
+      "offset": 8071,
       "length": 4,
       "value": "0x04"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 8052,
+      "offset": 8090,
       "length": 8,
       "value": "\".info\/\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 8070,
+      "offset": 8108,
       "length": 4,
       "value": "0x05"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 8089,
+      "offset": 8127,
       "length": 7,
       "value": "\".biz\/\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 8106,
+      "offset": 8144,
       "length": 4,
       "value": "0x06"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 8125,
+      "offset": 8163,
       "length": 7,
       "value": "\".gov\/\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 8142,
+      "offset": 8180,
       "length": 4,
       "value": "0x07"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 8161,
+      "offset": 8199,
       "length": 6,
       "value": "\".com\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 8177,
+      "offset": 8215,
       "length": 4,
       "value": "0x08"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 8196,
+      "offset": 8234,
       "length": 6,
       "value": "\".org\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 8212,
+      "offset": 8250,
       "length": 4,
       "value": "0x09"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 8231,
+      "offset": 8269,
       "length": 6,
       "value": "\".edu\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 8247,
+      "offset": 8285,
       "length": 4,
       "value": "0x0a"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 8266,
+      "offset": 8304,
       "length": 6,
       "value": "\".net\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 8282,
+      "offset": 8320,
       "length": 4,
       "value": "0x0b"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 8301,
+      "offset": 8339,
       "length": 7,
       "value": "\".info\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 8318,
+      "offset": 8356,
       "length": 4,
       "value": "0x0c"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 8337,
+      "offset": 8375,
       "length": 6,
       "value": "\".biz\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 8353,
+      "offset": 8391,
       "length": 4,
       "value": "0x0d"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 8372,
+      "offset": 8410,
       "length": 6,
       "value": "\".gov\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "IntegerLiteral",
-      "offset": 8461,
+      "offset": 8499,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/Eddystone.swift",
       "kind": "StringLiteral",
-      "offset": 2232,
+      "offset": 2270,
       "length": 10,
       "value": "\"BespotSDK.BeaconInfo\""
     },
@@ -6186,455 +6186,455 @@
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 1077,
+      "offset": 1090,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "Array",
-      "offset": 1252,
+      "offset": 1286,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 1413,
+      "offset": 1447,
       "length": 6,
       "value": "\"\/api\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 1934,
+      "offset": 1962,
       "length": 10,
       "value": "\"username\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 1957,
+      "offset": 1985,
       "length": 10,
       "value": "\"password\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2345,
+      "offset": 2373,
       "length": 9,
       "value": "\"refresh\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "Dictionary",
-      "offset": 2846,
+      "offset": 2874,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 3421,
+      "offset": 3449,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5746,
+      "offset": 5774,
       "length": 12,
       "value": "\"session_id\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 8399,
+      "offset": 8427,
       "length": 45,
       "value": "\"Encoding BLE readings as dictionary failed.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 8583,
+      "offset": 8611,
       "length": 60,
       "value": "\"Encoding session start with location as dictionary failed.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "Dictionary",
-      "offset": 8962,
+      "offset": 8990,
       "length": 30,
       "value": "[(\"Accept\", \"application\/json\")]"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 9072,
+      "offset": 9100,
       "length": 10,
       "value": "\"X-UserId\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 9181,
+      "offset": 9209,
       "length": 14,
       "value": "\"X-Alt-UserId\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 9319,
+      "offset": 9347,
       "length": 20,
       "value": "\"io.bespot.opap.api\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 9666,
+      "offset": 9694,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 9672,
+      "offset": 9700,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10467,
+      "offset": 10495,
       "length": 36,
       "value": "\"Network (or API) error: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10500,
+      "offset": 10528,
       "length": 1,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10559,
+      "offset": 10587,
       "length": 75,
       "value": "\"Internet is not reachable. BespotSDK needs internet to function properly.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 11023,
+      "offset": 11051,
       "length": 62,
       "value": "\"Error: JSON decode failed: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 11084,
+      "offset": 11112,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 11788,
+      "offset": 11816,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 11954,
+      "offset": 11982,
       "length": 12,
       "value": "\"X-DeviceId\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 12822,
+      "offset": 12850,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 12944,
+      "offset": 12972,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13027,
+      "offset": 13055,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13071,
+      "offset": 13099,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13136,
+      "offset": 13164,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13169,
+      "offset": 13197,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13285,
+      "offset": 13313,
       "length": 6,
       "value": "\"Info\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13301,
+      "offset": 13329,
       "length": 8,
       "value": "\".plist\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13481,
+      "offset": 13509,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13599,
+      "offset": 13627,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13664,
+      "offset": 13692,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13708,
+      "offset": 13736,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13766,
+      "offset": 13794,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13799,
+      "offset": 13827,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14113,
+      "offset": 14141,
       "length": 59,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14131,
+      "offset": 14159,
       "length": 1,
       "value": "\") \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14143,
+      "offset": 14171,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14157,
+      "offset": 14185,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14170,
+      "offset": 14198,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14204,
+      "offset": 14232,
       "length": 59,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14222,
+      "offset": 14250,
       "length": 1,
       "value": "\") \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14234,
+      "offset": 14262,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14248,
+      "offset": 14276,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14261,
+      "offset": 14289,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14295,
+      "offset": 14323,
       "length": 18,
       "value": "\"iOS \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14312,
+      "offset": 14340,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14452,
+      "offset": 14480,
       "length": 4,
       "value": "\"; \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 14553,
+      "offset": 14581,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 14797,
+      "offset": 14825,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 15110,
+      "offset": 15138,
       "length": 46,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 15152,
+      "offset": 15180,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 15155,
+      "offset": 15183,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 15178,
+      "offset": 15206,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 15452,
+      "offset": 15480,
       "length": 62,
       "value": "\"Reached empty refresh token retry limit: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 15512,
+      "offset": 15540,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 15675,
+      "offset": 15703,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 15705,
+      "offset": 15733,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 16033,
+      "offset": 16061,
       "length": 90,
       "value": "\"Unexpected empty refresh token. Possibly, no authentication attempt was previously made.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 16544,
+      "offset": 16572,
       "length": 35,
       "value": "\"Unhandled refresh token response.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "StringLiteral",
-      "offset": 17159,
+      "offset": 17187,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 17251,
+      "offset": 17279,
       "length": 1,
       "value": "0"
     },
@@ -6850,267 +6850,260 @@
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14971,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 16833,
+      "offset": 16832,
       "length": 38,
       "value": "\"This beacon device is not supported.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17412,
+      "offset": 17411,
       "length": 71,
       "value": "\"Can't start beacon scanning if it does not have beaconsUUID as input.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17773,
+      "offset": 17772,
       "length": 9,
       "value": "\"IBEACON\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17785,
+      "offset": 17784,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 17796,
+      "offset": 17795,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17798,
+      "offset": 17797,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17966,
+      "offset": 17965,
       "length": 9,
       "value": "\"IBEACON\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17978,
+      "offset": 17977,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 17989,
+      "offset": 17988,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17991,
+      "offset": 17990,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 18627,
+      "offset": 18626,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 19450,
+      "offset": 19449,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 19635,
+      "offset": 19634,
       "length": 62,
       "value": "\"No Bluetooth readings received over the last period of time.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 20299,
+      "offset": 20298,
       "length": 16,
       "value": "\"www.google.com\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 20382,
+      "offset": 20381,
       "length": 75,
       "value": "\"Internet is not reachable. BespotSDK needs internet to function properly.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 20561,
+      "offset": 20560,
       "length": 75,
       "value": "\"Internet is not reachable. BespotSDK needs internet to function properly.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 20755,
+      "offset": 20754,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 20795,
+      "offset": 20794,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 21433,
+      "offset": 21432,
       "length": 26,
       "value": "\"Internal BespotSDK error\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 21793,
+      "offset": 21792,
       "length": 34,
       "value": "\"Unhandled inout status response.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 21871,
+      "offset": 21870,
       "length": 33,
       "value": "\"BespotSDK unknown server error.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 23274,
+      "offset": 23273,
       "length": 24,
       "value": "\"readingsUpdateInterval\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 23589,
+      "offset": 23588,
       "length": 21,
       "value": "\"debugLoggingEnabled\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 23772,
+      "offset": 23771,
       "length": 16,
       "value": "\"rssiAdjustment\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 23967,
+      "offset": 23966,
       "length": 15,
       "value": "\"areaTypeLabel\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 24147,
+      "offset": 24146,
       "length": 6,
       "value": "\"host\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 25244,
+      "offset": 25237,
       "length": 36,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 25279,
+      "offset": 25272,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 25476,
+      "offset": 25469,
       "length": 16,
       "value": "\"www.google.com\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 26156,
+      "offset": 26149,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 26573,
+      "offset": 26566,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 26825,
+      "offset": 26818,
       "length": 35,
       "value": "\"Unhandled start session response.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 27453,
+      "offset": 27446,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 28019,
+      "offset": 28012,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "StringLiteral",
-      "offset": 28050,
+      "offset": 28043,
       "length": 33,
       "value": "\"RSSI with zero (0) value found.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "FloatLiteral",
-      "offset": 28308,
+      "offset": 28301,
       "length": 6,
       "value": "1000.0"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 28437,
+      "offset": 28430,
       "length": 4,
       "value": "1000"
     },
@@ -7292,140 +7285,140 @@
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "StringLiteral",
-      "offset": 2728,
-      "length": 190,
+      "offset": 2704,
+      "length": 203,
       "value": "\"RSSI: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "StringLiteral",
-      "offset": 2747,
+      "offset": 2727,
       "length": 1,
-      "value": "\", txPower: \""
+      "value": "\",\ntxPower: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "IntegerLiteral",
-      "offset": 2776,
+      "offset": 2757,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "StringLiteral",
-      "offset": 2779,
+      "offset": 2760,
       "length": 1,
-      "value": "\", distance: \""
+      "value": "\",\ndistance: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "StringLiteral",
-      "offset": 2807,
+      "offset": 2789,
       "length": 1,
-      "value": "\", UUID: \""
+      "value": "\",\nUUID: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "StringLiteral",
-      "offset": 2830,
+      "offset": 2813,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "StringLiteral",
-      "offset": 2833,
+      "offset": 2816,
       "length": 1,
-      "value": "\", major: \""
+      "value": "\",\nmajor: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "StringLiteral",
-      "offset": 2875,
+      "offset": 2859,
       "length": 1,
-      "value": "\", minor: \""
+      "value": "\",\nminor: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "StringLiteral",
-      "offset": 2917,
-      "length": 1,
+      "offset": 2902,
+      "length": 861,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "StringLiteral",
-      "offset": 2957,
+      "offset": 2931,
       "length": 104,
       "value": "\"RSSI: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "StringLiteral",
-      "offset": 2976,
+      "offset": 2950,
       "length": 1,
       "value": "\", txPower: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "IntegerLiteral",
-      "offset": 3005,
+      "offset": 2979,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "StringLiteral",
-      "offset": 3008,
+      "offset": 2982,
       "length": 1,
       "value": "\", distance: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "StringLiteral",
-      "offset": 3036,
+      "offset": 3010,
       "length": 1,
       "value": "\", EID: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "StringLiteral",
-      "offset": 3057,
+      "offset": 3031,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "StringLiteral",
-      "offset": 3060,
+      "offset": 3034,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "StringLiteral",
-      "offset": 3098,
+      "offset": 3057,
       "length": 32,
       "value": "\"No BLE protocol type available\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "BooleanLiteral",
-      "offset": 3385,
+      "offset": 3335,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "BooleanLiteral",
-      "offset": 3711,
+      "offset": 3661,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTReading.swift",
       "kind": "BooleanLiteral",
-      "offset": 3801,
+      "offset": 3751,
       "length": 5,
       "value": "false"
     },
@@ -7565,84 +7558,84 @@
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/BeaconScanner.swift",
       "kind": "StringLiteral",
-      "offset": 5584,
+      "offset": 5596,
       "length": 13,
       "value": "\"onLostTimer\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/BeaconScanner.swift",
       "kind": "StringLiteral",
-      "offset": 6332,
+      "offset": 6344,
       "length": 12,
       "value": "\"beaconInfo\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/BeaconScanner.swift",
       "kind": "StringLiteral",
-      "offset": 6695,
+      "offset": 6707,
       "length": 12,
       "value": "\"beaconInfo\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/BeaconScanner.swift",
       "kind": "StringLiteral",
-      "offset": 6736,
+      "offset": 6748,
       "length": 13,
       "value": "\"onLostTimer\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/BeaconScanner.swift",
       "kind": "StringLiteral",
-      "offset": 6909,
+      "offset": 6921,
       "length": 6,
       "value": "\"FEAA\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/BeaconScanner.swift",
       "kind": "StringLiteral",
-      "offset": 7242,
+      "offset": 7262,
       "length": 55,
       "value": "\"Unable to find service data; can't process Eddystone.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/BeaconScanner.swift",
       "kind": "StringLiteral",
-      "offset": 7416,
+      "offset": 7436,
       "length": 83,
       "value": "\"CentralManager state is \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/BeaconScanner.swift",
       "kind": "StringLiteral",
-      "offset": 7478,
+      "offset": 7498,
       "length": 1,
       "value": "\", cannot start scan.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/BeaconScanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 7531,
+      "offset": 7551,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/BeaconScanner.swift",
       "kind": "StringLiteral",
-      "offset": 7561,
+      "offset": 7581,
       "length": 34,
       "value": "\"Starting to scan for Eddystones.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/BeaconScanner.swift",
       "kind": "StringLiteral",
-      "offset": 7634,
+      "offset": 7654,
       "length": 6,
       "value": "\"FEAA\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/GoogleBeaconScanner\/BeaconScanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 7711,
+      "offset": 7731,
       "length": 4,
       "value": "true"
     },
@@ -7747,448 +7740,448 @@
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 478,
+      "offset": 516,
       "length": 10,
       "value": "\"[‼️]\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 511,
+      "offset": 549,
       "length": 10,
       "value": "\"[ℹ️]\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 543,
+      "offset": 581,
       "length": 8,
       "value": "\"[💬]\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 574,
+      "offset": 612,
       "length": 8,
       "value": "\"[🔬]\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 607,
+      "offset": 645,
       "length": 10,
       "value": "\"[⚠️]\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 642,
+      "offset": 680,
       "length": 8,
       "value": "\"[🔥]\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 478,
+      "offset": 516,
       "length": 10,
       "value": "\"[‼️]\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 511,
+      "offset": 549,
       "length": 10,
       "value": "\"[ℹ️]\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 543,
+      "offset": 581,
       "length": 8,
       "value": "\"[💬]\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 574,
+      "offset": 612,
       "length": 8,
       "value": "\"[🔬]\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 607,
+      "offset": 645,
       "length": 10,
       "value": "\"[⚠️]\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 642,
+      "offset": 680,
       "length": 8,
       "value": "\"[🔥]\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1106,
+      "offset": 1144,
       "length": 24,
       "value": "\"yyyy-MM-dd HH:mm:ssSSS\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 1591,
+      "offset": 1629,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2221,
+      "offset": 2259,
       "length": 127,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2242,
+      "offset": 2280,
       "length": 1,
       "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2265,
-      "length": 1,
-      "value": "\"[\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 2303,
       "length": 1,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 2341,
+      "length": 1,
       "value": "\"]:\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2312,
+      "offset": 2350,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2322,
+      "offset": 2360,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2334,
+      "offset": 2372,
       "length": 2,
       "value": "\" -> \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2347,
+      "offset": 2385,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2950,
+      "offset": 2988,
       "length": 127,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2971,
+      "offset": 3009,
       "length": 1,
       "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2994,
-      "length": 1,
-      "value": "\"[\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 3032,
       "length": 1,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 3070,
+      "length": 1,
       "value": "\"]:\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3041,
+      "offset": 3079,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3051,
+      "offset": 3089,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3063,
+      "offset": 3101,
       "length": 2,
       "value": "\" -> \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3076,
+      "offset": 3114,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3677,
+      "offset": 3715,
       "length": 127,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3698,
+      "offset": 3736,
       "length": 1,
       "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 3721,
-      "length": 1,
-      "value": "\"[\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 3759,
       "length": 1,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 3797,
+      "length": 1,
       "value": "\"]:\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3768,
+      "offset": 3806,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3778,
+      "offset": 3816,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3790,
+      "offset": 3828,
       "length": 2,
       "value": "\" -> \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3803,
+      "offset": 3841,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4408,
+      "offset": 4446,
       "length": 127,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4429,
+      "offset": 4467,
       "length": 1,
       "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 4452,
-      "length": 1,
-      "value": "\"[\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 4490,
       "length": 1,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 4528,
+      "length": 1,
       "value": "\"]:\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4499,
+      "offset": 4537,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4509,
+      "offset": 4547,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4521,
+      "offset": 4559,
       "length": 2,
       "value": "\" -> \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4534,
+      "offset": 4572,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5141,
+      "offset": 5179,
       "length": 127,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5162,
+      "offset": 5200,
       "length": 1,
       "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 5185,
-      "length": 1,
-      "value": "\"[\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 5223,
       "length": 1,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 5261,
+      "length": 1,
       "value": "\"]:\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5232,
+      "offset": 5270,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5242,
+      "offset": 5280,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5254,
+      "offset": 5292,
       "length": 2,
       "value": "\" -> \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5267,
+      "offset": 5305,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5867,
+      "offset": 5905,
       "length": 127,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5888,
+      "offset": 5926,
       "length": 1,
       "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 5911,
-      "length": 1,
-      "value": "\"[\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 5949,
       "length": 1,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 5987,
+      "length": 1,
       "value": "\"]:\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5958,
+      "offset": 5996,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5968,
+      "offset": 6006,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5980,
+      "offset": 6018,
       "length": 2,
       "value": "\" -> \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5993,
+      "offset": 6031,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 6304,
+      "offset": 6342,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 6345,
+      "offset": 6383,
       "length": 2,
       "value": "\"\""
     },
