@@ -1,7 +1,7 @@
 framework module BespotSDK {
   umbrella header "BespotSDK.h"
-
   export *
+
   module * { export * }
 }
 
