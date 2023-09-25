@@ -241,6 +241,7 @@ BespotSDK.shared.setAltUserId(ALTERNATIVE_USER_IDENTIFIER)
 ```
 ## App Store Connect distribution
 Xcode 13 has added an option "Manage Version and Build Number" during the process of app distribution. Please be sure to have this option disabled in order for SDK versions to be correctly reported.
+For Xcode 15, after creating the archive file and select Distribute App button, in the next screen you should select the Custom option. Finally you should deselect the option "Manage Version and Build Number" in order for SDK versions to be correctly reported.
 
 ## Support
 
