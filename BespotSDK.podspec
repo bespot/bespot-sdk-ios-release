@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BespotSDK"
-  spec.version      = "0.4.11"
+  spec.version      = "0.4.12"
   spec.summary      = "BespotSDK location & analytics"
 
   # This description is used to generate tags and improve search results.
