@@ -1,3 +1,9 @@
+# 0.5.0 (2023-12-1)
+### Changed
+- Rename BespotSDK class to BTSDK
+### Added 
+- Support XCFramework
+
 # 0.4.11 (2023-09-26)
 ### Added
 - Support for Swift 5.9

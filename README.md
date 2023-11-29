@@ -1,7 +1,7 @@
 # Bespot iOS SDK - Release
 > Bespot iOS SDK for proximity events and analytics reporting
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.4.11-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.5.0-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 Bespot iOS SDK offers proximity events and analytics reporting to 3rd party apps using BLE technology and Machine Learning methods.
@@ -34,7 +34,7 @@ target '[Your app]' do
   use_frameworks!
 
   # BespotSDK Framework
-  pod 'BespotSDK', :git => 'https://github.com/bespot/bespot-sdk-ios-release', :tag => '0.4.11'
+  pod 'BespotSDK', :git => 'https://github.com/bespot/bespot-sdk-ios-release', :tag => '0.5.0'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -49,8 +49,8 @@ end
 
 For manually installing *BespotSDK* into your app, follow the steps below:
 
-1. Download and drop ```BespotSDK.framework``` folder in your project (select "copy items if needed" in the popup menu).
-2. Select "Embed & Sign" at the BespotSDK.framework listing in your application's Target General settings menu (Xcode 15)
+1. Download and drop ```BespotSDK.xcframework``` folder in your project (select "copy items if needed" in the popup menu).
+2. Select "Embed & Sign" at the BespotSDK.xcframework listing in your application's Target General settings menu (Xcode 15)
 
 ## Usage example
 
@@ -69,15 +69,15 @@ Do the import :
 import BespotSDK
 ```
 
-In your application's AppDelegate ```application(_:didFinishLaunchingWithOptions:)``` method add this line to init/configure the BespotSDK singleton object:
+In your application's AppDelegate ```application(_:didFinishLaunchingWithOptions:)``` method add this line to init/configure the BTSDK singleton object:
 
 ```swift
-BespotSDK.shared.configure(applicationId: "your_app_id", applicationSecret: "your_app_secret")
+BTSDK.shared.configure(applicationId: "your_app_id", applicationSecret: "your_app_secret")
 ```
 ### Use the `BTConfigurationDelegate` optional delegate for the Configuration of a user
 In your view controller's ```viewDidLoad``` method add this:
 ```swift
-BespotSDK.shared.configurationDelegate = self
+BTSDK.shared.configurationDelegate = self
 ```
 
 Extend your view controller to implement delegate methods:
@@ -97,7 +97,7 @@ extension YourViewController: BTConfigurationDelegate {
 In your view controller's ```viewDidLoad()``` method add this:
 
 ```swift
-BespotSDK.shared.inOutDelegate = self
+BTSDK.shared.inOutDelegate = self
 ```
 
 Extend your view controller to implement delegate methods:
@@ -116,7 +116,7 @@ extension YourViewController: BTInOutDelegate {
 In your view controller's ```viewDidLoad()``` method add this:
 
 ```swift
-BespotSDK.shared.scannerDelegate = self
+BTSDK.shared.scannerDelegate = self
 ```
 
 Extend your view controller to implement delegate methods:
@@ -137,7 +137,7 @@ extension YourViewController: BTScannerDelegate {
 ### Get all available stores
 
 ```swift
-BespotSDK.shared.getStores { (stores: [BTStore]?, error: BTError?) in
+BTSDK.shared.getStores { (stores: [BTStore]?, error: BTError?) in
     // Check for error
     guard error == nil else {
         // TODO: Handle error
@@ -158,7 +158,7 @@ In order for the solution to geolocate the nearby store (physical building), the
 
 Use Bluetooth (default implementation):
 ```swift
-BespotSDK.shared.subscribeForInOutUpdates()
+BTSDK.shared.subscribeForInOutUpdates()
 ```
 **OR**
 
@@ -167,14 +167,14 @@ Use user's location (latitude and longitude in the form of coordinates object - 
 ```swift
 import CoreLocation
 
-BespotSDK.shared.subscribeForInOutUpdates(coordinates: CLLocationCoordinate2D(latitude: USER_LOCATION_LATITUDE, longitude: USER_LOCATION_LONGITUDE))
+BTSDK.shared.subscribeForInOutUpdates(coordinates: CLLocationCoordinate2D(latitude: USER_LOCATION_LATITUDE, longitude: USER_LOCATION_LONGITUDE))
 ```
 
 ### Unsubscribe from updates
 
 To unsubscribe from updates just use this:
 ```swift
-BespotSDK.shared.unsubscribe()
+BTSDK.shared.unsubscribe()
 ```
 
 ### Get last InOut status
@@ -182,7 +182,7 @@ Helper method to provide the last known InOut status.
 
 ```swift
 // Get the InOut result tuple
-let resultTuple = BespotSDK.shared.getLastInOutStatus()
+let resultTuple = BTSDK.shared.getLastInOutStatus()
 
 // Check for error        
 if let error: BTError = resultTuple.1 {
@@ -214,7 +214,7 @@ And then, implement these selector methods accordingly:
 ```swift
 @objc func appMovedToBackground() {
     // Unsubscribe from updates
-    BespotSDK.shared.unsubscribe()
+    BTSDK.shared.unsubscribe()
 }
 ```
 
@@ -223,7 +223,7 @@ And then, implement these selector methods accordingly:
 ```swift
 @objc func appMovedToForeground() {
     // Subscribe to InOut updates again
-    BespotSDK.shared.subscribeForInOutUpdates()
+    BTSDK.shared.subscribeForInOutUpdates()
 }
 ```
 
@@ -231,17 +231,21 @@ And then, implement these selector methods accordingly:
 After initialization/configuration is complete, user identifier can be provided at any time using the following code:
 
 ```swift
-BespotSDK.shared.setUserId(USER_IDENTIFIER)
+BTSDK.shared.setUserId(USER_IDENTIFIER)
 ```
 ### Set alternative user identifier
 After initialization/configuration is complete, alternative user identifier can be provided at any time using the following code:
 
 ```swift
-BespotSDK.shared.setAltUserId(ALTERNATIVE_USER_IDENTIFIER)
+BTSDK.shared.setAltUserId(ALTERNATIVE_USER_IDENTIFIER)
 ```
 ## App Store Connect distribution
 Xcode 13 has added an option "Manage Version and Build Number" during the process of app distribution. Please be sure to have this option disabled in order for SDK versions to be correctly reported.
 For Xcode 15, after creating the archive file and select Distribute App button, in the next screen you should select the Custom option. Finally you should deselect the option "Manage Version and Build Number" in order for SDK versions to be correctly reported.
+
+## Migration BespotSDK framework from version 0.4.11 to 0.5.0
+- Wherever the BespotSDK class is used, it should be renamed to BTSDK.
+- Add `config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'` at post_install in Podfile
 
 ## Support
 
