@@ -1,10 +1,13 @@
 # 0.5.0 (2023-12-1)
+
 ### Changed
-- Rename BespotSDK class to BTSDK
-### Added 
+- Rename `BespotSDK` class to `BTSDK`
+
+### Added
 - Support XCFramework
 
 # 0.4.11 (2023-09-26)
+
 ### Added
 - Support for Swift 5.9
 
@@ -12,21 +15,28 @@
 - Support for iOS 12+
 
 # 0.4.10 (2023-08-04)
+
 ### Added
 - Complete BespotSDK initialisation (authenticate with server) when network is not available initially but becomes available later on.
 
 # 0.4.9 (2023-07-12)
+
 ### Added
 - Support for Swift 5.8.1
 
 # 0.4.8 (2023-06-28)
+
 ### Added
 - Expose `setAltUserId(_:)` function for setting an alternative user ID
 
 # 0.4.7 (2023-04-05)
+
+### Added
 - SDK: Support swift 5.8
 
 # 0.4.6 (2022-11-11)
+
+### Added 
 - SDK: Support swift 5.7.1
 
 # 0.4.5 (2022-10-27)
