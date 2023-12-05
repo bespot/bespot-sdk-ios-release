@@ -1814,8 +1814,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "BespotSDK",
-        "printedName": "BespotSDK",
+        "name": "BTSDK",
+        "printedName": "BTSDK",
         "children": [
           {
             "kind": "Var",
@@ -1824,14 +1824,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "BespotSDK",
-                "printedName": "BespotSDK.BespotSDK",
-                "usr": "s:9BespotSDKAAC"
+                "name": "BTSDK",
+                "printedName": "BespotSDK.BTSDK",
+                "usr": "s:9BespotSDK5BTSDKC"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9BespotSDKAAC6sharedABvpZ",
-            "mangledName": "$s9BespotSDKAAC6sharedABvpZ",
+            "usr": "s:9BespotSDK5BTSDKC6sharedACvpZ",
+            "mangledName": "$s9BespotSDK5BTSDKC6sharedACvpZ",
             "moduleName": "BespotSDK",
             "static": true,
             "declAttributes": [
@@ -1851,14 +1851,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "BespotSDK",
-                    "printedName": "BespotSDK.BespotSDK",
-                    "usr": "s:9BespotSDKAAC"
+                    "name": "BTSDK",
+                    "printedName": "BespotSDK.BTSDK",
+                    "usr": "s:9BespotSDK5BTSDKC"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC6sharedABvgZ",
-                "mangledName": "$s9BespotSDKAAC6sharedABvgZ",
+                "usr": "s:9BespotSDK5BTSDKC6sharedACvgZ",
+                "mangledName": "$s9BespotSDK5BTSDKC6sharedACvgZ",
                 "moduleName": "BespotSDK",
                 "static": true,
                 "implicit": true,
@@ -1890,8 +1890,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvp",
-            "mangledName": "$s9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvp",
+            "usr": "s:9BespotSDK5BTSDKC21configurationDelegateAA015BTConfigurationE0_pSgvp",
+            "mangledName": "$s9BespotSDK5BTSDKC21configurationDelegateAA015BTConfigurationE0_pSgvp",
             "moduleName": "BespotSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -1922,8 +1922,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvg",
-                "mangledName": "$s9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvg",
+                "usr": "s:9BespotSDK5BTSDKC21configurationDelegateAA015BTConfigurationE0_pSgvg",
+                "mangledName": "$s9BespotSDK5BTSDKC21configurationDelegateAA015BTConfigurationE0_pSgvg",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1954,8 +1954,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvs",
-                "mangledName": "$s9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvs",
+                "usr": "s:9BespotSDK5BTSDKC21configurationDelegateAA015BTConfigurationE0_pSgvs",
+                "mangledName": "$s9BespotSDK5BTSDKC21configurationDelegateAA015BTConfigurationE0_pSgvs",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1972,8 +1972,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvM",
-                "mangledName": "$s9BespotSDKAAC21configurationDelegateAA015BTConfigurationD0_pSgvM",
+                "usr": "s:9BespotSDK5BTSDKC21configurationDelegateAA015BTConfigurationE0_pSgvM",
+                "mangledName": "$s9BespotSDK5BTSDKC21configurationDelegateAA015BTConfigurationE0_pSgvM",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2001,8 +2001,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvp",
-            "mangledName": "$s9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvp",
+            "usr": "s:9BespotSDK5BTSDKC13inOutDelegateAA04BTIneF0_pSgvp",
+            "mangledName": "$s9BespotSDK5BTSDKC13inOutDelegateAA04BTIneF0_pSgvp",
             "moduleName": "BespotSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -2033,8 +2033,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvg",
-                "mangledName": "$s9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvg",
+                "usr": "s:9BespotSDK5BTSDKC13inOutDelegateAA04BTIneF0_pSgvg",
+                "mangledName": "$s9BespotSDK5BTSDKC13inOutDelegateAA04BTIneF0_pSgvg",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2065,8 +2065,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvs",
-                "mangledName": "$s9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvs",
+                "usr": "s:9BespotSDK5BTSDKC13inOutDelegateAA04BTIneF0_pSgvs",
+                "mangledName": "$s9BespotSDK5BTSDKC13inOutDelegateAA04BTIneF0_pSgvs",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2083,8 +2083,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvM",
-                "mangledName": "$s9BespotSDKAAC13inOutDelegateAA04BTIndE0_pSgvM",
+                "usr": "s:9BespotSDK5BTSDKC13inOutDelegateAA04BTIneF0_pSgvM",
+                "mangledName": "$s9BespotSDK5BTSDKC13inOutDelegateAA04BTIneF0_pSgvM",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2112,8 +2112,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvp",
-            "mangledName": "$s9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvp",
+            "usr": "s:9BespotSDK5BTSDKC15scannerDelegateAA09BTScannerE0_pSgvp",
+            "mangledName": "$s9BespotSDK5BTSDKC15scannerDelegateAA09BTScannerE0_pSgvp",
             "moduleName": "BespotSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -2144,8 +2144,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvg",
-                "mangledName": "$s9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvg",
+                "usr": "s:9BespotSDK5BTSDKC15scannerDelegateAA09BTScannerE0_pSgvg",
+                "mangledName": "$s9BespotSDK5BTSDKC15scannerDelegateAA09BTScannerE0_pSgvg",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2176,8 +2176,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvs",
-                "mangledName": "$s9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvs",
+                "usr": "s:9BespotSDK5BTSDKC15scannerDelegateAA09BTScannerE0_pSgvs",
+                "mangledName": "$s9BespotSDK5BTSDKC15scannerDelegateAA09BTScannerE0_pSgvs",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2194,8 +2194,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvM",
-                "mangledName": "$s9BespotSDKAAC15scannerDelegateAA09BTScannerD0_pSgvM",
+                "usr": "s:9BespotSDK5BTSDKC15scannerDelegateAA09BTScannerE0_pSgvM",
+                "mangledName": "$s9BespotSDK5BTSDKC15scannerDelegateAA09BTScannerE0_pSgvM",
                 "moduleName": "BespotSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2254,8 +2254,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC9configure13applicationId0D6Secret6paramsySS_SSSDySSypGSgtF",
-            "mangledName": "$s9BespotSDKAAC9configure13applicationId0D6Secret6paramsySS_SSSDySSypGSgtF",
+            "usr": "s:9BespotSDK5BTSDKC9configure13applicationId0E6Secret6paramsySS_SSSDySSypGSgtF",
+            "mangledName": "$s9BespotSDK5BTSDKC9configure13applicationId0E6Secret6paramsySS_SSSDySSypGSgtF",
             "moduleName": "BespotSDK",
             "declAttributes": [
               "AccessControl",
@@ -2330,8 +2330,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC9getStores10completionyySayAA7BTStoreVGSg_AA7BTErrorVSgtc_tF",
-            "mangledName": "$s9BespotSDKAAC9getStores10completionyySayAA7BTStoreVGSg_AA7BTErrorVSgtc_tF",
+            "usr": "s:9BespotSDK5BTSDKC9getStores10completionyySayAA7BTStoreVGSg_AA7BTErrorVSgtc_tF",
+            "mangledName": "$s9BespotSDK5BTSDKC9getStores10completionyySayAA7BTStoreVGSg_AA7BTErrorVSgtc_tF",
             "moduleName": "BespotSDK",
             "declAttributes": [
               "AccessControl",
@@ -2351,8 +2351,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC24subscribeForInOutUpdatesyyF",
-            "mangledName": "$s9BespotSDKAAC24subscribeForInOutUpdatesyyF",
+            "usr": "s:9BespotSDK5BTSDKC24subscribeForInOutUpdatesyyF",
+            "mangledName": "$s9BespotSDK5BTSDKC24subscribeForInOutUpdatesyyF",
             "moduleName": "BespotSDK",
             "declAttributes": [
               "AccessControl",
@@ -2391,8 +2391,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC24subscribeForInOutUpdates6paramsySDySSypG_tF",
-            "mangledName": "$s9BespotSDKAAC24subscribeForInOutUpdates6paramsySDySSypG_tF",
+            "usr": "s:9BespotSDK5BTSDKC24subscribeForInOutUpdates6paramsySDySSypG_tF",
+            "mangledName": "$s9BespotSDK5BTSDKC24subscribeForInOutUpdates6paramsySDySSypG_tF",
             "moduleName": "BespotSDK",
             "declAttributes": [
               "AccessControl",
@@ -2426,8 +2426,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC24subscribeForInOutUpdates11coordinatesySo22CLLocationCoordinate2DVSg_tF",
-            "mangledName": "$s9BespotSDKAAC24subscribeForInOutUpdates11coordinatesySo22CLLocationCoordinate2DVSg_tF",
+            "usr": "s:9BespotSDK5BTSDKC24subscribeForInOutUpdates11coordinatesySo22CLLocationCoordinate2DVSg_tF",
+            "mangledName": "$s9BespotSDK5BTSDKC24subscribeForInOutUpdates11coordinatesySo22CLLocationCoordinate2DVSg_tF",
             "moduleName": "BespotSDK",
             "declAttributes": [
               "AccessControl",
@@ -2480,8 +2480,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC24subscribeForInOutUpdates11coordinates6paramsySo22CLLocationCoordinate2DVSg_SDySSypGtF",
-            "mangledName": "$s9BespotSDKAAC24subscribeForInOutUpdates11coordinates6paramsySo22CLLocationCoordinate2DVSg_SDySSypGtF",
+            "usr": "s:9BespotSDK5BTSDKC24subscribeForInOutUpdates11coordinates6paramsySo22CLLocationCoordinate2DVSg_SDySSypGtF",
+            "mangledName": "$s9BespotSDK5BTSDKC24subscribeForInOutUpdates11coordinates6paramsySo22CLLocationCoordinate2DVSg_SDySSypGtF",
             "moduleName": "BespotSDK",
             "declAttributes": [
               "AccessControl",
@@ -2531,8 +2531,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC18getLastInOutStatusAA04BTInfG0VSg_AA7BTErrorVSgtyF",
-            "mangledName": "$s9BespotSDKAAC18getLastInOutStatusAA04BTInfG0VSg_AA7BTErrorVSgtyF",
+            "usr": "s:9BespotSDK5BTSDKC18getLastInOutStatusAA04BTIngH0VSg_AA7BTErrorVSgtyF",
+            "mangledName": "$s9BespotSDK5BTSDKC18getLastInOutStatusAA04BTIngH0VSg_AA7BTErrorVSgtyF",
             "moduleName": "BespotSDK",
             "declAttributes": [
               "AccessControl",
@@ -2552,8 +2552,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC11unsubscribeyyF",
-            "mangledName": "$s9BespotSDKAAC11unsubscribeyyF",
+            "usr": "s:9BespotSDK5BTSDKC11unsubscribeyyF",
+            "mangledName": "$s9BespotSDK5BTSDKC11unsubscribeyyF",
             "moduleName": "BespotSDK",
             "declAttributes": [
               "AccessControl",
@@ -2579,8 +2579,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC9setUserIdyySSF",
-            "mangledName": "$s9BespotSDKAAC9setUserIdyySSF",
+            "usr": "s:9BespotSDK5BTSDKC9setUserIdyySSF",
+            "mangledName": "$s9BespotSDK5BTSDKC9setUserIdyySSF",
             "moduleName": "BespotSDK",
             "declAttributes": [
               "AccessControl",
@@ -2606,8 +2606,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC12setAltUserIdyySSF",
-            "mangledName": "$s9BespotSDKAAC12setAltUserIdyySSF",
+            "usr": "s:9BespotSDK5BTSDKC12setAltUserIdyySSF",
+            "mangledName": "$s9BespotSDK5BTSDKC12setAltUserIdyySSF",
             "moduleName": "BespotSDK",
             "declAttributes": [
               "AccessControl",
@@ -2684,8 +2684,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC19startBeaconScanning11profileType01iD11UUIDsToScan6paramsyAA09BTProfileG0O_SaySSGSgSDySSypGSgtF",
-            "mangledName": "$s9BespotSDKAAC19startBeaconScanning11profileType01iD11UUIDsToScan6paramsyAA09BTProfileG0O_SaySSGSgSDySSypGSgtF",
+            "usr": "s:9BespotSDK5BTSDKC19startBeaconScanning11profileType01iE11UUIDsToScan6paramsyAA09BTProfileH0O_SaySSGSgSDySSypGSgtF",
+            "mangledName": "$s9BespotSDK5BTSDKC19startBeaconScanning11profileType01iE11UUIDsToScan6paramsyAA09BTProfileH0O_SaySSGSgSDySSypGSgtF",
             "moduleName": "BespotSDK",
             "declAttributes": [
               "AccessControl",
@@ -2705,8 +2705,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9BespotSDKAAC18stopBeaconScanningyyF",
-            "mangledName": "$s9BespotSDKAAC18stopBeaconScanningyyF",
+            "usr": "s:9BespotSDK5BTSDKC18stopBeaconScanningyyF",
+            "mangledName": "$s9BespotSDK5BTSDKC18stopBeaconScanningyyF",
             "moduleName": "BespotSDK",
             "declAttributes": [
               "AccessControl",
@@ -2716,8 +2716,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:9BespotSDKAAC",
-        "mangledName": "$s9BespotSDKAAC",
+        "usr": "s:9BespotSDK5BTSDKC",
+        "mangledName": "$s9BespotSDK5BTSDKC",
         "moduleName": "BespotSDK",
         "isOpen": true,
         "declAttributes": [
@@ -6639,471 +6639,471 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3958,
+      "offset": 3918,
       "length": 16,
       "value": "\"www.google.com\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4000,
+      "offset": 3960,
       "length": 75,
       "value": "\"Internet is not reachable. BespotSDK needs internet to function properly.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4169,
+      "offset": 4129,
       "length": 75,
       "value": "\"Internet is not reachable. BespotSDK needs internet to function properly.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 5021,
+      "offset": 4981,
       "length": 34,
       "value": "\"Unhandled access token response.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 5284,
+      "offset": 5244,
       "length": 73,
       "value": "\"Authentication successful for user: \""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 5352,
+      "offset": 5312,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 5355,
+      "offset": 5315,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 7262,
+      "offset": 7222,
       "length": 35,
       "value": "\"Unhandled start session response.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8960,
+      "offset": 8920,
       "length": 49,
       "value": "\"You first need to subscribe for In-Out updates.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 9155,
+      "offset": 9115,
       "length": 29,
       "value": "\"No IN-OUT status available.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 9594,
+      "offset": 9554,
       "length": 16,
       "value": "\"www.google.com\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 9677,
+      "offset": 9637,
       "length": 75,
       "value": "\"Internet is not reachable. BespotSDK needs internet to function properly.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 9868,
+      "offset": 9828,
       "length": 75,
       "value": "\"Internet is not reachable. BespotSDK needs internet to function properly.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 10210,
+      "offset": 10170,
       "length": 20,
       "value": "\"No active session.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 10603,
+      "offset": 10563,
       "length": 34,
       "value": "\"Unhandled stop session response.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11030,
+      "offset": 10990,
       "length": 29,
       "value": "\"User id was set: \""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11057,
+      "offset": 11017,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11289,
+      "offset": 11249,
       "length": 43,
       "value": "\"Alternative User id was set: \""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11331,
+      "offset": 11291,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "FloatLiteral",
-      "offset": 11451,
+      "offset": 11411,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "FloatLiteral",
-      "offset": 11531,
+      "offset": 11491,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "FloatLiteral",
-      "offset": 11617,
+      "offset": 11577,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "Array",
-      "offset": 11996,
+      "offset": 11956,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "Array",
-      "offset": 12313,
+      "offset": 12273,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 12856,
+      "offset": 12816,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 12879,
+      "offset": 12839,
       "length": 53,
       "value": "\"BespotSDK is already scanning for location updates.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 13378,
+      "offset": 13334,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 13688,
+      "offset": 13644,
       "length": 33,
       "value": "\"Bluetooth permission is denied.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 14086,
+      "offset": 14042,
       "length": 27,
       "value": "\"Bluetooth is powered off.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 14426,
+      "offset": 14382,
       "length": 32,
       "value": "\"Bespot SDK is not initialised.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 16832,
+      "offset": 16788,
       "length": 38,
       "value": "\"This beacon device is not supported.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17411,
+      "offset": 17367,
       "length": 71,
       "value": "\"Can't start beacon scanning if it does not have beaconsUUID as input.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17772,
+      "offset": 17728,
       "length": 9,
       "value": "\"IBEACON\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17784,
+      "offset": 17740,
       "length": 14,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 17795,
+      "offset": 17751,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17797,
+      "offset": 17753,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17965,
+      "offset": 17921,
       "length": 9,
       "value": "\"IBEACON\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17977,
+      "offset": 17933,
       "length": 14,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 17988,
+      "offset": 17944,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17990,
+      "offset": 17946,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 18626,
+      "offset": 18578,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 19449,
+      "offset": 19397,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 19634,
+      "offset": 19582,
       "length": 62,
       "value": "\"No Bluetooth readings received over the last period of time.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 20298,
+      "offset": 20246,
       "length": 16,
       "value": "\"www.google.com\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 20381,
+      "offset": 20329,
       "length": 75,
       "value": "\"Internet is not reachable. BespotSDK needs internet to function properly.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 20560,
+      "offset": 20508,
       "length": 75,
       "value": "\"Internet is not reachable. BespotSDK needs internet to function properly.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 20754,
+      "offset": 20702,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 20794,
+      "offset": 20742,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 21432,
+      "offset": 21380,
       "length": 26,
       "value": "\"Internal BespotSDK error\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 21792,
+      "offset": 21740,
       "length": 34,
       "value": "\"Unhandled inout status response.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 21870,
+      "offset": 21818,
       "length": 33,
       "value": "\"BespotSDK unknown server error.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 23273,
+      "offset": 23221,
       "length": 24,
       "value": "\"readingsUpdateInterval\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 23588,
+      "offset": 23536,
       "length": 21,
       "value": "\"debugLoggingEnabled\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 23771,
+      "offset": 23719,
       "length": 16,
       "value": "\"rssiAdjustment\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 23966,
+      "offset": 23914,
       "length": 15,
       "value": "\"areaTypeLabel\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 24146,
+      "offset": 24094,
       "length": 6,
       "value": "\"host\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 25237,
+      "offset": 25181,
       "length": 36,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 25272,
+      "offset": 25216,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 25469,
+      "offset": 25413,
       "length": 16,
       "value": "\"www.google.com\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 26149,
+      "offset": 26093,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 26566,
+      "offset": 26510,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 26818,
+      "offset": 26762,
       "length": 35,
       "value": "\"Unhandled start session response.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 27446,
+      "offset": 27386,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 28012,
+      "offset": 27952,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "StringLiteral",
-      "offset": 28043,
+      "offset": 27983,
       "length": 33,
       "value": "\"RSSI with zero (0) value found.\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "FloatLiteral",
-      "offset": 28301,
+      "offset": 28241,
       "length": 6,
       "value": "1000.0"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BespotSDK.swift",
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/BTSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 28430,
+      "offset": 28370,
       "length": 4,
       "value": "1000"
     },

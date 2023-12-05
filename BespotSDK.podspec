@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BespotSDK"
-  spec.version      = "0.4.11"
+  spec.version      = "0.5.0"
   spec.summary      = "BespotSDK location & analytics"
 
   # This description is used to generate tags and improve search results.
@@ -66,7 +66,7 @@ Pod::Spec.new do |spec|
 
   # spec.platform     = :ios
   spec.platform     = :ios, "12.0"
-  spec.ios.vendored_frameworks = 'BespotSDK.framework'
+  spec.ios.vendored_frameworks = 'BespotSDK.xcframework'
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
