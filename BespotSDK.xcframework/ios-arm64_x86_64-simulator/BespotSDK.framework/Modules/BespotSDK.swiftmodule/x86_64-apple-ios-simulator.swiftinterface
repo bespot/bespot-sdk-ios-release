@@ -29,6 +29,7 @@ public enum BTErrorType : Swift.String, Swift.Decodable {
   case permissionDenied
   case profileCannotBeEmpty
   case deviceNotSupported
+  case serviceUnavailableOutsideWorkingHours
   case noStatusAvailable
   case notSubscribed
   case alreadyScanning
