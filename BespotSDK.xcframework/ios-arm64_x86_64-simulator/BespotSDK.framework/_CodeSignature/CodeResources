@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BespotSDK-Swift.h</key>
 		<data>
-		dYcw+SnmlqKlTVEnU8rcpoiPWYk=
+		usA9SywHJ7cv7NH70R6lO5Wzza0=
 		</data>
 		<key>Headers/BespotSDK.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aWFRvPnqNi/xW06wZFPXEGIoNR4=
+		rKDjHOpSa66PS+dpD18W1J+xU0Q=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		TRSRbPLMIgUf5/CJRJk2EEh1Y6o=
+		JyANWs8QhVqIf94cTOWeK8RacVk=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XH3m50EcCzQPWg8m6V566LSgZOM=
+		G6qkfLctz5RefydNzz8lqeXvDmk=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		tg8IlnHNiLGLZQdzIRU6dLtvvAA=
+		0LlPWZ4OoZmA5K4XvLtKebTcomk=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XH3m50EcCzQPWg8m6V566LSgZOM=
+		G6qkfLctz5RefydNzz8lqeXvDmk=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Cqr7P5+klBWxEZNBFLljnnIbKEk=
+		G8zm1TRtbED6yuAUz91ipTEI5Go=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		TRSRbPLMIgUf5/CJRJk2EEh1Y6o=
+		JyANWs8QhVqIf94cTOWeK8RacVk=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dt+OmSKqVO5N3hQB1xN+CEcdnhA=
+		cFNALmTNNvi7boeHxird4kZUlEU=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		D0mw90iEMxBiCLSQ3JgkVp0Unrk=
+		guJ/oFlPzWmnMlG7DJa2E6+qvaE=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dt+OmSKqVO5N3hQB1xN+CEcdnhA=
+		cFNALmTNNvi7boeHxird4kZUlEU=
 		</data>
 		<key>Modules/BespotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+8g5zrToqoVU1AtkBi/9U5SL+Eg=
+		IvPHLv+RtKiDyk5noojGbvuM67E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cDQAyRN4p+0zKPgr+BGeTh7/5po1WUYIItU0QnO3BmM=
+			PaLdZmQZMpX++715GpXxJaVhjld0OvlbwlezAl9/EEI=
 			</data>
 		</dict>
 		<key>Headers/BespotSDK.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sSjVnXwLLffoAr0MvfYQEutJR7vTrq5sqEt8yp8875Y=
+			EIfAOuvClALgl7OoIzPMiHNY2kGFCnm4GIc+7+Mg/W4=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zG2aNqnEI7JMXhikykJ3B6AFjzVwRpZVaueHympbvoY=
+			9/3gfUu2GUWua6ybt6KlKndKpuPzlWU4poACo/J2+G0=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vkka0Uoe6bTs0G0KdgGyV6NtjNvTE+MwVQgIw4ZXs4g=
+			xjJ/nWppx9DYJu5vwZTsp9VG2BWpfZSO2yvH2m8FEMs=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zG2aNqnEI7JMXhikykJ3B6AFjzVwRpZVaueHympbvoY=
+			9/3gfUu2GUWua6ybt6KlKndKpuPzlWU4poACo/J2+G0=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GtDQlVwUHx+D0MZDykySZUnjE/PA5sZC9P69ePo2yNc=
+			Se9cT4b9nU1vPg2sJdiCilYvAhb4djN3GNY+X6wNouo=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sSjVnXwLLffoAr0MvfYQEutJR7vTrq5sqEt8yp8875Y=
+			EIfAOuvClALgl7OoIzPMiHNY2kGFCnm4GIc+7+Mg/W4=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8ertne5+KhhJulGhTftgQXEEtLFyrF+qYM55fgfe37M=
+			R7b8yxuPNirIQkHpAHyYjQj0NUPTvS3Muiin7cP0k4k=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5rJsi2kI0EYEAh6O5osFz/wi7NfjS41QvygCqEqKwJ0=
+			jdiZzc25yUYcspS1H0J52AOWWMru4/3Oi/f27qQKPhQ=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8ertne5+KhhJulGhTftgQXEEtLFyrF+qYM55fgfe37M=
+			R7b8yxuPNirIQkHpAHyYjQj0NUPTvS3Muiin7cP0k4k=
 			</data>
 		</dict>
 		<key>Modules/BespotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FVUJK17/9Ct/0OyYlHtlCWJolOEfX95KcdUgemgyv2Y=
+			8Dfg11Q9W9YTrJp/0bOoJHVFSW1dG/kIW1VeM1+KYvo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

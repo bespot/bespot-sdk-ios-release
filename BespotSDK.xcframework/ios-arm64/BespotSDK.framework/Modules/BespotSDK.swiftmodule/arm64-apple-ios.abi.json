@@ -643,6 +643,43 @@
           },
           {
             "kind": "Var",
+            "name": "serviceUnavailableOutsideWorkingHours",
+            "printedName": "serviceUnavailableOutsideWorkingHours",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BespotSDK.BTErrorType.Type) -> BespotSDK.BTErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BTErrorType",
+                    "printedName": "BespotSDK.BTErrorType",
+                    "usr": "s:9BespotSDK11BTErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BespotSDK.BTErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BTErrorType",
+                        "printedName": "BespotSDK.BTErrorType",
+                        "usr": "s:9BespotSDK11BTErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9BespotSDK11BTErrorTypeO37serviceUnavailableOutsideWorkingHoursyA2CmF",
+            "mangledName": "$s9BespotSDK11BTErrorTypeO37serviceUnavailableOutsideWorkingHoursyA2CmF",
+            "moduleName": "BespotSDK"
+          },
+          {
+            "kind": "Var",
             "name": "noStatusAvailable",
             "printedName": "noStatusAvailable",
             "children": [
@@ -5759,91 +5796,98 @@
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1121,
+      "offset": 1102,
+      "length": 43,
+      "value": "\"service_unavailable_outside_working_hours\""
+    },
+    {
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
+      "kind": "StringLiteral",
+      "offset": 1207,
       "length": 21,
       "value": "\"no_status_available\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1168,
+      "offset": 1254,
       "length": 16,
       "value": "\"not_subscribed\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1212,
+      "offset": 1298,
       "length": 18,
       "value": "\"already_scanning\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1257,
+      "offset": 1343,
       "length": 17,
       "value": "\"encoding_failed\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1310,
+      "offset": 1396,
       "length": 27,
       "value": "\"error_converting_readings\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1368,
+      "offset": 1454,
       "length": 22,
       "value": "\"unknown_server_error\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1422,
+      "offset": 1508,
       "length": 23,
       "value": "\"internal_client_error\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1470,
+      "offset": 1556,
       "length": 15,
       "value": "\"network_error\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1512,
+      "offset": 1598,
       "length": 17,
       "value": "\"not_initialised\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1556,
+      "offset": 1642,
       "length": 17,
       "value": "\"bluetooth_error\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1611,
+      "offset": 1697,
       "length": 29,
       "value": "\"bluetooth_permission_denied\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1675,
+      "offset": 1761,
       "length": 26,
       "value": "\"no_beaconsUUID_available\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1738,
+      "offset": 1824,
       "length": 29,
       "value": "\"not_supported_beacon_device\""
     },
@@ -5962,119 +6006,126 @@
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1121,
+      "offset": 1102,
+      "length": 43,
+      "value": "\"service_unavailable_outside_working_hours\""
+    },
+    {
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
+      "kind": "StringLiteral",
+      "offset": 1207,
       "length": 21,
       "value": "\"no_status_available\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1168,
+      "offset": 1254,
       "length": 16,
       "value": "\"not_subscribed\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1212,
+      "offset": 1298,
       "length": 18,
       "value": "\"already_scanning\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1257,
+      "offset": 1343,
       "length": 17,
       "value": "\"encoding_failed\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1310,
+      "offset": 1396,
       "length": 27,
       "value": "\"error_converting_readings\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1368,
+      "offset": 1454,
       "length": 22,
       "value": "\"unknown_server_error\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1422,
+      "offset": 1508,
       "length": 23,
       "value": "\"internal_client_error\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1470,
+      "offset": 1556,
       "length": 15,
       "value": "\"network_error\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1512,
+      "offset": 1598,
       "length": 17,
       "value": "\"not_initialised\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1556,
+      "offset": 1642,
       "length": 17,
       "value": "\"bluetooth_error\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1611,
+      "offset": 1697,
       "length": 29,
       "value": "\"bluetooth_permission_denied\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1675,
+      "offset": 1761,
       "length": 26,
       "value": "\"no_beaconsUUID_available\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 1738,
+      "offset": 1824,
       "length": 29,
       "value": "\"not_supported_beacon_device\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 2733,
+      "offset": 2819,
       "length": 23,
       "value": "\"Unknown Server Error.\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 3145,
+      "offset": 3231,
       "length": 42,
       "value": "\"Code: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 3168,
+      "offset": 3254,
       "length": 6,
       "value": "\" Detail: \""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/BespotSDK\/bespot-sdk-ios\/BespotSDK\/BespotSDK\/Model\/BTError.swift",
       "kind": "StringLiteral",
-      "offset": 3186,
+      "offset": 3272,
       "length": 1,
       "value": "\"\""
     },

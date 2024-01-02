@@ -1,3 +1,8 @@
+# 0.5.1 (2024-01-04)
+
+### Added
+- Promote `Service unavailable outside business hours` error
+
 # 0.5.0 (2023-12-1)
 
 ### Changed
