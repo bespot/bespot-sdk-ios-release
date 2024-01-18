@@ -1,4 +1,4 @@
-# 0.5.1 (2024-01-04)
+# 0.5.1 (2024-01-19)
 
 ### Added
 - Promote `Service unavailable outside business hours` error
