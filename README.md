@@ -254,7 +254,7 @@ If you find a bug please fill out an issue report or contact us at dev@bespot.co
 
 ## License
 
-(C) Copyright 2020-2023 Bespot P.C. All rights reserved. See `LICENSE` for more information.
+(C) Copyright 2020-2024 Bespot P.C. All rights reserved. See `LICENSE` for more information.
 [Bespot](https://bespot.com/) Location tracking to drive growth, profitability and customer engagement
 
 
