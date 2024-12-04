@@ -1,7 +1,7 @@
 # Bespot iOS SDK - Release
 > Bespot iOS SDK for proximity events and analytics reporting
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.5.2-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.6.0-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 Bespot iOS SDK offers proximity events and analytics reporting to 3rd party apps using BLE technology and Machine Learning methods.
@@ -34,7 +34,7 @@ target '[Your app]' do
   use_frameworks!
 
   # BespotSDK Framework
-  pod 'BespotSDK', :git => 'https://github.com/bespot/bespot-sdk-ios-release', :tag => '0.5.2'
+  pod 'BespotSDK', :git => 'https://github.com/bespot/bespot-sdk-ios-release', :tag => '0.6.0'
 
   # Other CocoaPods libraries/frameworks you may use...
 
