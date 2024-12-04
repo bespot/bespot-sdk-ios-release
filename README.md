@@ -239,6 +239,40 @@ After initialization/configuration is complete, alternative user identifier can 
 ```swift
 BTSDK.shared.setAltUserId(ALTERNATIVE_USER_IDENTIFIER)
 ```
+## Surveys
+To receive surveys there are some conditions that are required:
+- BespotSDK is initialized
+- Set alternative user identifier
+- Subscribe for InOut status
+
+### Get all available surveys
+```swift
+BTSDK.shared.getSurveys()
+```
+
+### Use the `BTSurveyDelegate` delegate to receive surveys
+In your view controller's ```viewDidLoad``` method add this:
+```swift
+BTSDK.shared.surveyDelegate = self
+```
+Extend your view controller to implement delegate methods:
+```swift
+extension YourViewController: BTSurveyDelegate {
+  func didUpdateSurveys(surveys: [BTSurvey]) {
+    // TODO: Use surveys
+  }
+
+  func didFailUpdateSurveys(error: BTError) {
+    // TODO: Inspect possible errors
+  }
+}
+```
+
+### Answer a question in a survey
+```swift
+BTSDK.shared.sendAnswer(answer: "user_answer", question: BTQuestion, survey: BTSurvey, completion: (BTAnswer?, BTError?))
+```
+
 ## App Store Connect distribution
 Xcode 13 has added an option "Manage Version and Build Number" during the process of app distribution. Please be sure to have this option disabled in order for SDK versions to be correctly reported.
 For Xcode 16, after creating the archive file and select Distribute App button, in the next screen you should select the Custom option. Finally you should deselect the option "Manage Version and Build Number" in order for SDK versions to be correctly reported.

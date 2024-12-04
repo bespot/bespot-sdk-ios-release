@@ -1,7 +1,8 @@
-# 0.5.2 (2024-12-03)
+# 0.6.0 (2024-12-04)
 
 ### Added
 - Support Xcode 16.1 and Swift 6
+- Surveys feature
 
 # 0.5.1 (2024-01-19)
 
