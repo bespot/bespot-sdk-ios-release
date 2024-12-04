@@ -1,7 +1,7 @@
 # Bespot iOS SDK - Release
 > Bespot iOS SDK for proximity events and analytics reporting
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.5.1-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.6.0-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 Bespot iOS SDK offers proximity events and analytics reporting to 3rd party apps using BLE technology and Machine Learning methods.
@@ -16,7 +16,7 @@ Bespot iOS SDK offers proximity events and analytics reporting to 3rd party apps
 ## Requirements
 
 - iOS 12.0+
-- Xcode 15
+- Xcode 16
 
 ## Installation
 
@@ -34,7 +34,7 @@ target '[Your app]' do
   use_frameworks!
 
   # BespotSDK Framework
-  pod 'BespotSDK', :git => 'https://github.com/bespot/bespot-sdk-ios-release', :tag => '0.5.1'
+  pod 'BespotSDK', :git => 'https://github.com/bespot/bespot-sdk-ios-release', :tag => '0.6.0'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -50,7 +50,7 @@ end
 For manually installing *BespotSDK* into your app, follow the steps below:
 
 1. Download and drop ```BespotSDK.xcframework``` folder in your project (select "copy items if needed" in the popup menu).
-2. Select "Embed & Sign" at the BespotSDK.xcframework listing in your application's Target General settings menu (Xcode 15)
+2. Select "Embed & Sign" at the BespotSDK.xcframework listing in your application's Target General settings menu (Xcode 16)
 
 ## Usage example
 
@@ -239,9 +239,43 @@ After initialization/configuration is complete, alternative user identifier can 
 ```swift
 BTSDK.shared.setAltUserId(ALTERNATIVE_USER_IDENTIFIER)
 ```
+## Surveys
+To receive surveys there are some conditions that are required:
+- BespotSDK is initialized
+- Set alternative user identifier
+- Subscribe for InOut status
+
+### Get all available surveys
+```swift
+BTSDK.shared.getSurveys()
+```
+
+### Use the `BTSurveyDelegate` delegate to receive surveys
+In your view controller's ```viewDidLoad``` method add this:
+```swift
+BTSDK.shared.surveyDelegate = self
+```
+Extend your view controller to implement delegate methods:
+```swift
+extension YourViewController: BTSurveyDelegate {
+  func didUpdateSurveys(surveys: [BTSurvey]) {
+    // TODO: Use surveys
+  }
+
+  func didFailUpdateSurveys(error: BTError) {
+    // TODO: Inspect possible errors
+  }
+}
+```
+
+### Answer a question in a survey
+```swift
+BTSDK.shared.sendAnswer(answer: "user_answer", question: BTQuestion, survey: BTSurvey, completion: (BTAnswer?, BTError?))
+```
+
 ## App Store Connect distribution
 Xcode 13 has added an option "Manage Version and Build Number" during the process of app distribution. Please be sure to have this option disabled in order for SDK versions to be correctly reported.
-For Xcode 15, after creating the archive file and select Distribute App button, in the next screen you should select the Custom option. Finally you should deselect the option "Manage Version and Build Number" in order for SDK versions to be correctly reported.
+For Xcode 16, after creating the archive file and select Distribute App button, in the next screen you should select the Custom option. Finally you should deselect the option "Manage Version and Build Number" in order for SDK versions to be correctly reported.
 
 ## Migration guide
 ### 0.4.X to 0.5.X
@@ -258,5 +292,5 @@ If you find a bug please fill out an issue report or contact us at dev@bespot.co
 [Bespot](https://bespot.com/) Location tracking to drive growth, profitability and customer engagement
 
 
-[swift-image]: https://img.shields.io/badge/swift-5.9-orange.svg
+[swift-image]: https://img.shields.io/badge/swift-6.0-orange.svg
 [swift-url]: https://swift.org/

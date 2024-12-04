@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BespotSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name BespotSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Alamofire
 @_exported import BespotSDK
 import CoreBluetooth
@@ -12,6 +12,19 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum BTQuestionType : Swift.String, Swift.Decodable {
+  case emojiRating
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct BTQuestion : Swift.Decodable {
+  public let text: Swift.String
+  public let type: BespotSDK.BTQuestionType
+  public init(from decoder: any Swift.Decoder) throws
+}
 public enum BTErrorType : Swift.String, Swift.Decodable {
   case indoorDataModelNotFound
   case noStoreNearby
@@ -30,6 +43,14 @@ public enum BTErrorType : Swift.String, Swift.Decodable {
   case profileCannotBeEmpty
   case deviceNotSupported
   case serviceUnavailableOutsideWorkingHours
+  case noSurveyFound
+  case serviceNotAvailable
+  case userAnswerExists
+  case objectNotFound
+  case unknownError
+  case invalidUUID
+  case invalid
+  case storeIdNotSet
   case noStatusAvailable
   case notSubscribed
   case alreadyScanning
@@ -43,6 +64,10 @@ public enum BTErrorType : Swift.String, Swift.Decodable {
   case bluetoothPermissionDenied
   case noBeaconsUUIDAvailable
   case notSupportedBeaconDevice
+  case userIdNotSet
+  case altUserIdNotSet
+  case awayFromStore
+  case internalSDKError
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -58,6 +83,13 @@ extension BespotSDK.BTError : Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
   }
+}
+public protocol BTSurveyDelegate {
+  func didUpdateSurveys(surveys: [BespotSDK.BTSurvey])
+  func didFailUpdateSurveys(error: BespotSDK.BTError)
+}
+extension BespotSDK.BTSurveyDelegate {
+  public func didFailUpdateSurveys(error: BespotSDK.BTError)
 }
 public protocol BTScannerDelegate {
   func didUpdateReadings(readings: [BespotSDK.BTReading])
@@ -86,7 +118,10 @@ extension BespotSDK.BTInOutDelegate {
   public var configurationDelegate: (any BespotSDK.BTConfigurationDelegate)?
   public var inOutDelegate: (any BespotSDK.BTInOutDelegate)?
   public var scannerDelegate: (any BespotSDK.BTScannerDelegate)?
+  public var surveyDelegate: (any BespotSDK.BTSurveyDelegate)?
   public func configure(applicationId: Swift.String, applicationSecret: Swift.String, params: [Swift.String : Any]? = nil)
+  public func getSurveys()
+  public func sendAnswer(answer: Swift.String, question: BespotSDK.BTQuestion, survey: BespotSDK.BTSurvey, completion: @escaping (_ answer: BespotSDK.BTAnswer?, _ error: BespotSDK.BTError?) -> Swift.Void)
   public func getStores(completion: @escaping (_ stores: [BespotSDK.BTStore]?, _ error: BespotSDK.BTError?) -> Swift.Void)
   public func subscribeForInOutUpdates()
   public func subscribeForInOutUpdates(params: [Swift.String : Any])
@@ -127,6 +162,21 @@ extension BespotSDK.BTReading : Swift.CustomStringConvertible {
 }
 extension BespotSDK.BTReading : Swift.Equatable {
   public static func == (lhs: BespotSDK.BTReading, rhs: BespotSDK.BTReading) -> Swift.Bool
+}
+public struct BTAnswer : Swift.Codable {
+  public let uuid: Swift.String
+  public let answer: Swift.String
+  public let questionId: Swift.String
+  public let surveyId: Swift.String
+  public let storeId: Swift.String
+  public let timestamp: Swift.Int64
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BTSurvey : Swift.Decodable {
+  public let title: Swift.String
+  public let questions: [BespotSDK.BTQuestion]
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct BTStore : Swift.Decodable {
   public let uuid: Swift.String
@@ -174,6 +224,9 @@ extension BespotSDK.BTInOutStatus : Swift.CustomDebugStringConvertible {
 extension BespotSDK.BTInOutStatus {
   public init(from decoder: any Swift.Decoder) throws
 }
+extension BespotSDK.BTQuestionType : Swift.Equatable {}
+extension BespotSDK.BTQuestionType : Swift.Hashable {}
+extension BespotSDK.BTQuestionType : Swift.RawRepresentable {}
 extension BespotSDK.BTErrorType : Swift.Equatable {}
 extension BespotSDK.BTErrorType : Swift.Hashable {}
 extension BespotSDK.BTErrorType : Swift.RawRepresentable {}
